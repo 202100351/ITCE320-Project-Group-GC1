@@ -1,12 +1,15 @@
 import socket
 cs = socket.socket(socket.AF_INET,socket.SOCK_STREAM)
 cs.connect(("127.0.0.1",49999))
-name = input("username:" )
-for i in range(20):
- #name = input(":" )
- cs.send(name.encode('ascii'))
- msg =cs.recv(1024)
- print(msg.decode('ascii'))
- name = input(":" )
+
+while True:
+ msg = input(":" )
+ cs.send(msg.encode('ascii'))
+ data =cs.recv(1024)
+ print(data.decode('ascii'))
+ if data.decode('ascii')== 'server>>:goodbye':
+  print("server disconnected")
+  break
+
 
 cs.close()
