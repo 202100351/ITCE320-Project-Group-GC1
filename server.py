@@ -2,22 +2,19 @@ import socket
 import requests
 import json
 
-
+airport_code = input("Choose an airport (icao) code: ")
 
 params = {'access_key':'ff1a4156d990b500005ee6d92ed4a4ae',
-          'limit':20}
+          'limit':100,
+          'arr_icao':airport_code}
 
 api_response = requests.get('http://api.aviationstack.com/v1/flights?',params)
-json_result = json.dumps(api_response.json(),indent=4)
 
+with open("group_GC1.json", mode="w") as jsonfile:
+  json.dump(api_response.json(),jsonfile, indent=4)
 
-print(json_result)
-print(type(api_response))
-print(type(json_result))
-
-
-
-
+with open("group_GC1.json", mode="r") as f:
+  data = json.load(f)
 
 # ss = socket.socket(socket.AF_INET,socket.SOCK_STREAM)
 # ss.bind(("127.0.0.1", 49994))
