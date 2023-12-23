@@ -1,7 +1,8 @@
 import socket
 cs = socket.socket(socket.AF_INET,socket.SOCK_STREAM)
-cs.connect(("127.0.0.1",49999))
-
+cs.connect(("127.0.0.1",49994))
+msg = input(":" )
+cs.send(msg.encode('ascii'))
 while True:
  msg = input(":" )
  cs.send(msg.encode('ascii'))

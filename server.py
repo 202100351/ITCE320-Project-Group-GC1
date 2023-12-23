@@ -15,22 +15,26 @@ with open("group_GC1.json", mode="w") as jsonfile:
 
 with open("group_GC1.json", mode="r") as f:
   data = json.load(f)
+#######################################################################################
+ss = socket.socket(socket.AF_INET,socket.SOCK_STREAM)
+ss.bind(("127.0.0.1", 49994))
+ss.listen(1)
+cs, sockaddress = ss.accept()
+client = {sockaddress:cs.recv(1024).decode('ascii')}
+print('Accepted request from', sockaddress[0] ,'with port number', sockaddress[1])
+print(f'{client[sockaddress]} has connected.')
+while True:
+ try:
+  msg = (cs.recv(1024)).decode('ascii')
+  if msg== 'bye'or msg== 'quit':
+       cs.send(("server>>:good"+msg).encode('ascii'))
+       print(f'{client[sockaddress]} has disconnected.')
+       break
+ except (socket.error, ConnectionResetError):
+            print(f"{client[sockaddress]} has disconnected.")
+            break
+ print(msg,"has been sent.")
+ cs.send((msg.upper()).encode('ascii'))
 
-# ss = socket.socket(socket.AF_INET,socket.SOCK_STREAM)
-# ss.bind(("127.0.0.1", 49994))
-# ss.listen(3)
-# cs, sockaddress = ss.accept()
-# print('Accepted request from', sockaddress[0] ,'with port number', sockaddress[1])
- 
-# while True:
-#  msg = (cs.recv(1024)).decode('ascii')
-#  if msg== 'bye':
-#       cs.send(("server>>:good"+msg).encode('ascii'))
-#       break
-#  print(msg,"has connected")
-#  cs.send((msg).encode('ascii'))
-#  ss.listen(5)
- 
-
-# cs.close()
-# ss.close()
+cs.close()
+ss.close()
