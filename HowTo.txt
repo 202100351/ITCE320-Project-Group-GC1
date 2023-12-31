@@ -1,7 +1,7 @@
 1- Make sure to have the server and client scripts in the same directory
 2- (Make sure the port number (49994) is available for server socket to bind).
 3- run the server script first and put ICAO code for a choosen airport
-4- wait until the server print
+4- wait until the server display
 "Server is ready to accept connections from clients"
 5- run client script (one or multiple) and type client name
 6- request options for the client from (a to d) and (e) to quit
