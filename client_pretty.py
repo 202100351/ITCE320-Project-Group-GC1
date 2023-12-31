@@ -63,48 +63,49 @@ try:
                 server_response = client_socket.recv(1024).decode("ascii")
                 print(server_response)
                 break
-
-            elif option in ['a','b']:
-                server_response = send_receive_data(client_socket, option)
-                print_flight_details()
             
-            try:
-                if option == 'c':
-                    city_code = input("City code (Airport IATA code): ").upper()
-                    server_response = send_receive_data(client_socket, option, city_code)
-                    if len(server_response["flight"]) == 0:
-                        raise KeyError
+            elif option in ['a', 'b', 'c', 'd']:
+                if option in ['a','b']:
+                    server_response = send_receive_data(client_socket, option)
                     print_flight_details()
-        
-                elif option == 'd':
-                    flight_code = input("IATA: ").upper()
-                    server_response = send_receive_data(client_socket, option, flight_code)
-                    if len(server_response["flight"]) == 0:
-                        raise KeyError
-                    
-                    table = PrettyTable()
-                    #server_response = {"flight":[[iata,..,...,.]]}
-                    flight = server_response["flight"][0] 
-
-                    table.field_names = ["IATA", flight[0]]
-                    table.add_row(["Departure Airport", flight[1]])
-                    table.add_row(["Departure Gate", flight[2]])
-                    table.add_row(["Departure Terminal", flight[3]])
-                    table.add_row(["Arrival Airport", flight[4]])
-                    table.add_row(["Arrival Gate", flight[5]])
-                    table.add_row(["Arrival Terminal", flight[6]])
-                    table.add_row(["Flight Status", flight[7]])
-                    table.add_row(["Scheduled Departure Time", flight[8]])
-                    table.add_row(["Scheduled Arrival Time", flight[9]])
-                    print(table)
-
-            except KeyError:
-                if option == 'c':
-                    print(f"\nNo flights coming from: {city_code}")
                 
-                elif option == 'd':
-                    print(f"\nNo flights with this IATA code: {flight_code}")
+                try:
+                    if option == 'c':
+                        city_code = input("City code (Airport IATA code): ").upper()
+                        server_response = send_receive_data(client_socket, option, city_code)
+                        if len(server_response["flight"]) == 0:
+                            raise KeyError
+                        print_flight_details()
             
+                    elif option == 'd':
+                        flight_code = input("IATA: ").upper()
+                        server_response = send_receive_data(client_socket, option, flight_code)
+                        if len(server_response["flight"]) == 0:
+                            raise KeyError
+                        
+                        table = PrettyTable()
+                        #server_response = {"flight":[[iata,..,...,.]]}
+                        flight = server_response["flight"][0] 
+    
+                        table.field_names = ["IATA", flight[0]]
+                        table.add_row(["Departure Airport", flight[1]])
+                        table.add_row(["Departure Gate", flight[2]])
+                        table.add_row(["Departure Terminal", flight[3]])
+                        table.add_row(["Arrival Airport", flight[4]])
+                        table.add_row(["Arrival Gate", flight[5]])
+                        table.add_row(["Arrival Terminal", flight[6]])
+                        table.add_row(["Flight Status", flight[7]])
+                        table.add_row(["Scheduled Departure Time", flight[8]])
+                        table.add_row(["Scheduled Arrival Time", flight[9]])
+                        print(table)
+    
+                except KeyError:
+                    if option == 'c':
+                        print(f"\nNo flights coming from: {city_code}")
+                    
+                    elif option == 'd':
+                        print(f"\nNo flights with this IATA code: {flight_code}")
+                
             else:
                 print("\nInvalid option choose from (a to e).")
 except ConnectionRefusedError:
