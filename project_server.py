@@ -1,10 +1,13 @@
+#Yousif Ahmed Jassim 202010375 sec 1
+#Hasan Ali Khalil Rajab 202100351 sec 1
 import socket
 import requests
 import json
 import threading
 
 def fix_time(time): 
-     # Function to fix the time format
+     # Function to fix the time format: ("2023-12-31T05:40:00+00:00" --> "5:40")
+    if not time: return "None"   #sometimes [arrival][actual] is null from API
     time_string = time.split(":")
     hour = (time_string[0])[-2:]
     minutes = time_string[1]
@@ -34,6 +37,8 @@ def handle_client_request(client_socket, sock_address):
             if request == 'a': # Request for all arrived flights
                 for flight in data["data"]:
                     if flight["flight_status"] == "landed":
+                       # print(flight["arrival"]["actual"])
+                        #if not flight["arrival"]["actual"]: print(flight)
                         response = [
                             flight["flight"]["iata"],
                             flight["departure"]["airport"],
@@ -45,7 +50,7 @@ def handle_client_request(client_socket, sock_address):
                 print((client_name[sock_address]), "requested all arrived flights.")
             
             
-            if request == 'b': # Request for all delayed flights
+            elif request == 'b': # Request for all delayed flights
                 for flight in data["data"]:
                     if flight["arrival"]["delay"]:
                         response = [
@@ -60,7 +65,7 @@ def handle_client_request(client_socket, sock_address):
                         response_list.append(response)
                 print((client_name[sock_address]), "requested all delayed flights.")
             
-            if request[0] == 'c': # Request for flights from a specific city code
+            elif request[0] == 'c': # Request for flights from a specific city code
                 city_code = request[1:]
                 for flight in data["data"]:
                     if flight["departure"]["iata"] == city_code:
@@ -77,7 +82,7 @@ def handle_client_request(client_socket, sock_address):
 
                 print((client_name[sock_address]), "requested flights from:", city_code)
             
-            if request[0] == 'd': # Request for details of a specific flight
+            elif request[0] == 'd': # Request for details of a specific flight
                 flight_code = request[1:]
                 for flight in data["data"]:
                     if flight["flight"]["iata"] == flight_code:
@@ -110,10 +115,10 @@ def handle_client_request(client_socket, sock_address):
 
 ###############################################################################
 
-# Get airport code from user
-airport_code = input("Choose an airport (ICAO) code: ")
+# Get airport icao code from user
+airport_code = input("Choose an airport (ICAO) code: ").upper()
 params = {
-    'access_key': 'ff1a4156d990b500005ee6d92ed4a4ae',
+    'access_key': 'dcde146b78bbf011a305dcb511911ddf',
     'limit': 100,
     'arr_icao': airport_code
 }
@@ -130,15 +135,12 @@ with open("group_GC1.json", "r") as f:
 
 print("Server is ready to accept connections from clients")
 
-
-
 # configure server socket
 server_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 server_ip = "127.0.0.1"
 server_port = 49994
 server_socket.bind((server_ip, server_port))
 server_socket.listen(3)
-
 
 while True:
     # Accept client connections
