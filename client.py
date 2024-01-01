@@ -6,7 +6,6 @@ from prettytable import PrettyTable
 
 def send_receive_data(client_socket, type, parameter=""):
 #Function to send the request to the server and receive the processed response
-    #if type == "c" or type == "d":
     type = type + parameter        #ex: cBAH
     client_socket.send(type.encode("ascii"))
     server_response = client_socket.recv(32768)
