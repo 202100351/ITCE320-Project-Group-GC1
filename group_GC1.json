@@ -1,0 +1,5017 @@
+{
+    "pagination": {
+        "limit": 100,
+        "offset": 0,
+        "count": 100,
+        "total": 2479
+    },
+    "data": [
+        {
+            "flight_date": "2024-01-02",
+            "flight_status": "active",
+            "departure": {
+                "airport": "Hong Kong International",
+                "timezone": "Asia/Hong_Kong",
+                "iata": "HKG",
+                "icao": "VHHH",
+                "terminal": "1",
+                "gate": "41",
+                "delay": 33,
+                "scheduled": "2024-01-02T00:55:00+00:00",
+                "estimated": "2024-01-02T00:55:00+00:00",
+                "actual": "2024-01-02T01:28:00+00:00",
+                "estimated_runway": "2024-01-02T01:28:00+00:00",
+                "actual_runway": "2024-01-02T01:28:00+00:00"
+            },
+            "arrival": {
+                "airport": "San Francisco International",
+                "timezone": "America/Los_Angeles",
+                "iata": "SFO",
+                "icao": "KSFO",
+                "terminal": "I",
+                "gate": null,
+                "baggage": "CL8",
+                "delay": null,
+                "scheduled": "2024-01-01T21:00:00+00:00",
+                "estimated": "2024-01-01T21:00:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Cathay Pacific",
+                "iata": "CX",
+                "icao": "CPA"
+            },
+            "flight": {
+                "number": "872",
+                "iata": "CX872",
+                "icao": "CPA872",
+                "codeshared": null
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2024-01-02",
+            "flight_status": "active",
+            "departure": {
+                "airport": "Hong Kong International",
+                "timezone": "Asia/Hong_Kong",
+                "iata": "HKG",
+                "icao": "VHHH",
+                "terminal": "1",
+                "gate": "41",
+                "delay": 33,
+                "scheduled": "2024-01-02T00:55:00+00:00",
+                "estimated": "2024-01-02T00:55:00+00:00",
+                "actual": "2024-01-02T01:28:00+00:00",
+                "estimated_runway": "2024-01-02T01:28:00+00:00",
+                "actual_runway": "2024-01-02T01:28:00+00:00"
+            },
+            "arrival": {
+                "airport": "San Francisco International",
+                "timezone": "America/Los_Angeles",
+                "iata": "SFO",
+                "icao": "KSFO",
+                "terminal": "I",
+                "gate": null,
+                "baggage": "CL8",
+                "delay": null,
+                "scheduled": "2024-01-01T21:00:00+00:00",
+                "estimated": "2024-01-01T21:00:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Malaysia Airlines",
+                "iata": "MH",
+                "icao": "MAS"
+            },
+            "flight": {
+                "number": "9198",
+                "iata": "MH9198",
+                "icao": "MAS9198",
+                "codeshared": {
+                    "airline_name": "cathay pacific",
+                    "airline_iata": "cx",
+                    "airline_icao": "cpa",
+                    "flight_number": "872",
+                    "flight_iata": "cx872",
+                    "flight_icao": "cpa872"
+                }
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2024-01-02",
+            "flight_status": "active",
+            "departure": {
+                "airport": "Hong Kong International",
+                "timezone": "Asia/Hong_Kong",
+                "iata": "HKG",
+                "icao": "VHHH",
+                "terminal": "1",
+                "gate": "41",
+                "delay": 33,
+                "scheduled": "2024-01-02T00:55:00+00:00",
+                "estimated": "2024-01-02T00:55:00+00:00",
+                "actual": "2024-01-02T01:28:00+00:00",
+                "estimated_runway": "2024-01-02T01:28:00+00:00",
+                "actual_runway": "2024-01-02T01:28:00+00:00"
+            },
+            "arrival": {
+                "airport": "San Francisco International",
+                "timezone": "America/Los_Angeles",
+                "iata": "SFO",
+                "icao": "KSFO",
+                "terminal": "I",
+                "gate": null,
+                "baggage": "CL8",
+                "delay": null,
+                "scheduled": "2024-01-01T21:00:00+00:00",
+                "estimated": "2024-01-01T21:00:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "American Airlines",
+                "iata": "AA",
+                "icao": "AAL"
+            },
+            "flight": {
+                "number": "8930",
+                "iata": "AA8930",
+                "icao": "AAL8930",
+                "codeshared": {
+                    "airline_name": "cathay pacific",
+                    "airline_iata": "cx",
+                    "airline_icao": "cpa",
+                    "flight_number": "872",
+                    "flight_iata": "cx872",
+                    "flight_icao": "cpa872"
+                }
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2024-01-02",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Indira Gandhi International",
+                "timezone": "Asia/Kolkata",
+                "iata": "DEL",
+                "icao": "VIDP",
+                "terminal": "3",
+                "gate": "24",
+                "delay": 630,
+                "scheduled": "2024-01-02T04:00:00+00:00",
+                "estimated": "2024-01-02T04:00:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "San Francisco International",
+                "timezone": "America/Los_Angeles",
+                "iata": "SFO",
+                "icao": "KSFO",
+                "terminal": "INTL",
+                "gate": null,
+                "baggage": null,
+                "delay": null,
+                "scheduled": "2024-01-02T06:00:00+00:00",
+                "estimated": "2024-01-02T06:00:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Air India",
+                "iata": "AI",
+                "icao": "AIC"
+            },
+            "flight": {
+                "number": "173",
+                "iata": "AI173",
+                "icao": "AIC173",
+                "codeshared": null
+            },
+            "aircraft": {
+                "registration": "VT-ALF",
+                "iata": "B77L",
+                "icao": "B77L",
+                "icao24": "8004DA"
+            },
+            "live": {
+                "updated": "2024-01-01T16:17:56+00:00",
+                "latitude": 41.9937,
+                "longitude": 174.253,
+                "altitude": 10972.8,
+                "direction": 72,
+                "speed_horizontal": 1120.46,
+                "speed_vertical": 0,
+                "is_ground": false
+            }
+        },
+        {
+            "flight_date": "2024-01-01",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Tri-cities",
+                "timezone": "America/Los_Angeles",
+                "iata": "PSC",
+                "icao": "KPSC",
+                "terminal": null,
+                "gate": null,
+                "delay": null,
+                "scheduled": "2024-01-01T13:55:00+00:00",
+                "estimated": "2024-01-01T13:55:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "San Francisco International",
+                "timezone": "America/Los_Angeles",
+                "iata": "SFO",
+                "icao": "KSFO",
+                "terminal": "3",
+                "gate": "F5",
+                "baggage": "6",
+                "delay": null,
+                "scheduled": "2024-01-01T16:00:00+00:00",
+                "estimated": "2024-01-01T16:00:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "United Airlines",
+                "iata": "UA",
+                "icao": "UAL"
+            },
+            "flight": {
+                "number": "5594",
+                "iata": "UA5594",
+                "icao": "UAL5594",
+                "codeshared": null
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2024-01-01",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Dallas/Fort Worth International",
+                "timezone": "America/Chicago",
+                "iata": "DFW",
+                "icao": "KDFW",
+                "terminal": "A",
+                "gate": "A29",
+                "delay": null,
+                "scheduled": "2024-01-01T15:11:00+00:00",
+                "estimated": "2024-01-01T15:11:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "San Francisco International",
+                "timezone": "America/Los_Angeles",
+                "iata": "SFO",
+                "icao": "KSFO",
+                "terminal": "1",
+                "gate": "B27",
+                "baggage": "1",
+                "delay": null,
+                "scheduled": "2024-01-01T17:05:00+00:00",
+                "estimated": "2024-01-01T17:05:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "American Airlines",
+                "iata": "AA",
+                "icao": "AAL"
+            },
+            "flight": {
+                "number": "2427",
+                "iata": "AA2427",
+                "icao": "AAL2427",
+                "codeshared": null
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2024-01-01",
+            "flight_status": "active",
+            "departure": {
+                "airport": "Washington Dulles International",
+                "timezone": "America/New_York",
+                "iata": "IAD",
+                "icao": "KIAD",
+                "terminal": null,
+                "gate": "D26",
+                "delay": 12,
+                "scheduled": "2024-01-01T12:30:00+00:00",
+                "estimated": "2024-01-01T12:30:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "San Francisco International",
+                "timezone": "America/Los_Angeles",
+                "iata": "SFO",
+                "icao": "KSFO",
+                "terminal": "3",
+                "gate": "F19",
+                "baggage": "5",
+                "delay": null,
+                "scheduled": "2024-01-01T15:33:00+00:00",
+                "estimated": "2024-01-01T15:33:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Air New Zealand",
+                "iata": "NZ",
+                "icao": "ANZ"
+            },
+            "flight": {
+                "number": "9175",
+                "iata": "NZ9175",
+                "icao": "ANZ9175",
+                "codeshared": {
+                    "airline_name": "united airlines",
+                    "airline_iata": "ua",
+                    "airline_icao": "ual",
+                    "flight_number": "2081",
+                    "flight_iata": "ua2081",
+                    "flight_icao": "ual2081"
+                }
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2024-01-01",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Licenciado Gustavo D\u00edaz Ordaz International",
+                "timezone": "America/Mexico_City",
+                "iata": "PVR",
+                "icao": "MMPR",
+                "terminal": "1",
+                "gate": "13",
+                "delay": null,
+                "scheduled": "2024-01-01T14:55:00+00:00",
+                "estimated": "2024-01-01T14:55:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "San Francisco International",
+                "timezone": "America/Los_Angeles",
+                "iata": "SFO",
+                "icao": "KSFO",
+                "terminal": "I",
+                "gate": "G3",
+                "baggage": "CL6",
+                "delay": null,
+                "scheduled": "2024-01-01T16:55:00+00:00",
+                "estimated": "2024-01-01T16:55:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "United Airlines",
+                "iata": "UA",
+                "icao": "UAL"
+            },
+            "flight": {
+                "number": "1243",
+                "iata": "UA1243",
+                "icao": "UAL1243",
+                "codeshared": null
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2024-01-01",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Licenciado Gustavo D\u00edaz Ordaz International",
+                "timezone": "America/Mexico_City",
+                "iata": "PVR",
+                "icao": "MMPR",
+                "terminal": "1",
+                "gate": "13",
+                "delay": null,
+                "scheduled": "2024-01-01T14:55:00+00:00",
+                "estimated": "2024-01-01T14:55:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "San Francisco International",
+                "timezone": "America/Los_Angeles",
+                "iata": "SFO",
+                "icao": "KSFO",
+                "terminal": "I",
+                "gate": "G3",
+                "baggage": "CL6",
+                "delay": null,
+                "scheduled": "2024-01-01T16:55:00+00:00",
+                "estimated": "2024-01-01T16:55:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Air Canada",
+                "iata": "AC",
+                "icao": "ACA"
+            },
+            "flight": {
+                "number": "5311",
+                "iata": "AC5311",
+                "icao": "ACA5311",
+                "codeshared": {
+                    "airline_name": "united airlines",
+                    "airline_iata": "ua",
+                    "airline_icao": "ual",
+                    "flight_number": "1243",
+                    "flight_iata": "ua1243",
+                    "flight_icao": "ual1243"
+                }
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2024-01-01",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Licenciado Gustavo D\u00edaz Ordaz International",
+                "timezone": "America/Mexico_City",
+                "iata": "PVR",
+                "icao": "MMPR",
+                "terminal": "1",
+                "gate": "10",
+                "delay": null,
+                "scheduled": "2024-01-01T14:40:00+00:00",
+                "estimated": "2024-01-01T14:40:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "San Francisco International",
+                "timezone": "America/Los_Angeles",
+                "iata": "SFO",
+                "icao": "KSFO",
+                "terminal": "I",
+                "gate": null,
+                "baggage": "CL9",
+                "delay": null,
+                "scheduled": "2024-01-01T16:41:00+00:00",
+                "estimated": "2024-01-01T16:41:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Alaska Airlines",
+                "iata": "AS",
+                "icao": "ASA"
+            },
+            "flight": {
+                "number": "1370",
+                "iata": "AS1370",
+                "icao": "ASA1370",
+                "codeshared": null
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2024-01-01",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Chicago O'hare International",
+                "timezone": "America/Chicago",
+                "iata": "ORD",
+                "icao": "KORD",
+                "terminal": "2",
+                "gate": "E17",
+                "delay": 22,
+                "scheduled": "2024-01-01T14:30:00+00:00",
+                "estimated": "2024-01-01T14:30:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "San Francisco International",
+                "timezone": "America/Los_Angeles",
+                "iata": "SFO",
+                "icao": "KSFO",
+                "terminal": "2",
+                "gate": "D4",
+                "baggage": "3",
+                "delay": null,
+                "scheduled": "2024-01-01T17:26:00+00:00",
+                "estimated": "2024-01-01T17:26:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Alaska Airlines",
+                "iata": "AS",
+                "icao": "ASA"
+            },
+            "flight": {
+                "number": "331",
+                "iata": "AS331",
+                "icao": "ASA331",
+                "codeshared": null
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2024-01-01",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Jackson Hole",
+                "timezone": "America/Denver",
+                "iata": "JAC",
+                "icao": "KJAC",
+                "terminal": null,
+                "gate": "6",
+                "delay": null,
+                "scheduled": "2024-01-01T14:00:00+00:00",
+                "estimated": "2024-01-01T14:00:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "San Francisco International",
+                "timezone": "America/Los_Angeles",
+                "iata": "SFO",
+                "icao": "KSFO",
+                "terminal": "2",
+                "gate": "D3",
+                "baggage": "3",
+                "delay": null,
+                "scheduled": "2024-01-01T15:45:00+00:00",
+                "estimated": "2024-01-01T15:45:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Alaska Airlines",
+                "iata": "AS",
+                "icao": "ASA"
+            },
+            "flight": {
+                "number": "707",
+                "iata": "AS707",
+                "icao": "ASA707",
+                "codeshared": null
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2024-01-01",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Jackson Hole",
+                "timezone": "America/Denver",
+                "iata": "JAC",
+                "icao": "KJAC",
+                "terminal": null,
+                "gate": "6",
+                "delay": null,
+                "scheduled": "2024-01-01T14:00:00+00:00",
+                "estimated": "2024-01-01T14:00:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "San Francisco International",
+                "timezone": "America/Los_Angeles",
+                "iata": "SFO",
+                "icao": "KSFO",
+                "terminal": "2",
+                "gate": "D3",
+                "baggage": "3",
+                "delay": null,
+                "scheduled": "2024-01-01T15:45:00+00:00",
+                "estimated": "2024-01-01T15:45:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "American Airlines",
+                "iata": "AA",
+                "icao": "AAL"
+            },
+            "flight": {
+                "number": "9356",
+                "iata": "AA9356",
+                "icao": "AAL9356",
+                "codeshared": {
+                    "airline_name": "alaska airlines",
+                    "airline_iata": "as",
+                    "airline_icao": "asa",
+                    "flight_number": "707",
+                    "flight_iata": "as707",
+                    "flight_icao": "asa707"
+                }
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2024-01-01",
+            "flight_status": "active",
+            "departure": {
+                "airport": "Charles De Gaulle",
+                "timezone": "Europe/Paris",
+                "iata": "CDG",
+                "icao": "LFPG",
+                "terminal": "1",
+                "gate": "12",
+                "delay": 24,
+                "scheduled": "2024-01-01T09:00:00+00:00",
+                "estimated": "2024-01-01T09:00:00+00:00",
+                "actual": "2024-01-01T09:23:00+00:00",
+                "estimated_runway": "2024-01-01T09:23:00+00:00",
+                "actual_runway": "2024-01-01T09:23:00+00:00"
+            },
+            "arrival": {
+                "airport": "San Francisco International",
+                "timezone": "America/Los_Angeles",
+                "iata": "SFO",
+                "icao": "KSFO",
+                "terminal": "I",
+                "gate": "G1",
+                "baggage": "CL6",
+                "delay": null,
+                "scheduled": "2024-01-01T11:35:00+00:00",
+                "estimated": "2024-01-01T11:35:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Brussels Airlines",
+                "iata": "SN",
+                "icao": "BEL"
+            },
+            "flight": {
+                "number": "9011",
+                "iata": "SN9011",
+                "icao": "BEL9011",
+                "codeshared": {
+                    "airline_name": "united airlines",
+                    "airline_iata": "ua",
+                    "airline_icao": "ual",
+                    "flight_number": "984",
+                    "flight_iata": "ua984",
+                    "flight_icao": "ual984"
+                }
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2024-01-01",
+            "flight_status": "active",
+            "departure": {
+                "airport": "Charles De Gaulle",
+                "timezone": "Europe/Paris",
+                "iata": "CDG",
+                "icao": "LFPG",
+                "terminal": "1",
+                "gate": "12",
+                "delay": 24,
+                "scheduled": "2024-01-01T09:00:00+00:00",
+                "estimated": "2024-01-01T09:00:00+00:00",
+                "actual": "2024-01-01T09:23:00+00:00",
+                "estimated_runway": "2024-01-01T09:23:00+00:00",
+                "actual_runway": "2024-01-01T09:23:00+00:00"
+            },
+            "arrival": {
+                "airport": "San Francisco International",
+                "timezone": "America/Los_Angeles",
+                "iata": "SFO",
+                "icao": "KSFO",
+                "terminal": "I",
+                "gate": "G1",
+                "baggage": "CL6",
+                "delay": null,
+                "scheduled": "2024-01-01T11:35:00+00:00",
+                "estimated": "2024-01-01T11:35:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Lufthansa",
+                "iata": "LH",
+                "icao": "DLH"
+            },
+            "flight": {
+                "number": "8663",
+                "iata": "LH8663",
+                "icao": "DLH8663",
+                "codeshared": {
+                    "airline_name": "united airlines",
+                    "airline_iata": "ua",
+                    "airline_icao": "ual",
+                    "flight_number": "984",
+                    "flight_iata": "ua984",
+                    "flight_icao": "ual984"
+                }
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2024-01-01",
+            "flight_status": "active",
+            "departure": {
+                "airport": "Charles De Gaulle",
+                "timezone": "Europe/Paris",
+                "iata": "CDG",
+                "icao": "LFPG",
+                "terminal": "1",
+                "gate": "12",
+                "delay": 24,
+                "scheduled": "2024-01-01T09:00:00+00:00",
+                "estimated": "2024-01-01T09:00:00+00:00",
+                "actual": "2024-01-01T09:23:00+00:00",
+                "estimated_runway": "2024-01-01T09:23:00+00:00",
+                "actual_runway": "2024-01-01T09:23:00+00:00"
+            },
+            "arrival": {
+                "airport": "San Francisco International",
+                "timezone": "America/Los_Angeles",
+                "iata": "SFO",
+                "icao": "KSFO",
+                "terminal": "I",
+                "gate": "G1",
+                "baggage": "CL6",
+                "delay": null,
+                "scheduled": "2024-01-01T11:35:00+00:00",
+                "estimated": "2024-01-01T11:35:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Air Canada",
+                "iata": "AC",
+                "icao": "ACA"
+            },
+            "flight": {
+                "number": "3298",
+                "iata": "AC3298",
+                "icao": "ACA3298",
+                "codeshared": {
+                    "airline_name": "united airlines",
+                    "airline_iata": "ua",
+                    "airline_icao": "ual",
+                    "flight_number": "984",
+                    "flight_iata": "ua984",
+                    "flight_icao": "ual984"
+                }
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2024-01-01",
+            "flight_status": "active",
+            "departure": {
+                "airport": "Don Miguel Hidalgo y Costilla International",
+                "timezone": "America/Mexico_City",
+                "iata": "GDL",
+                "icao": "MMGL",
+                "terminal": "1",
+                "gate": "B12",
+                "delay": 21,
+                "scheduled": "2024-01-01T07:45:00+00:00",
+                "estimated": "2024-01-01T07:45:00+00:00",
+                "actual": "2024-01-01T08:05:00+00:00",
+                "estimated_runway": "2024-01-01T08:05:00+00:00",
+                "actual_runway": "2024-01-01T08:05:00+00:00"
+            },
+            "arrival": {
+                "airport": "San Francisco International",
+                "timezone": "America/Los_Angeles",
+                "iata": "SFO",
+                "icao": "KSFO",
+                "terminal": "I",
+                "gate": "A15",
+                "baggage": "CL8",
+                "delay": null,
+                "scheduled": "2024-01-01T10:13:00+00:00",
+                "estimated": "2024-01-01T10:13:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Aeromexico",
+                "iata": "AM",
+                "icao": "AMX"
+            },
+            "flight": {
+                "number": "622",
+                "iata": "AM622",
+                "icao": "AMX622",
+                "codeshared": null
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2024-01-01",
+            "flight_status": "landed",
+            "departure": {
+                "airport": "Sky Harbor International",
+                "timezone": "America/Phoenix",
+                "iata": "PHX",
+                "icao": "KPHX",
+                "terminal": "4",
+                "gate": "B21",
+                "delay": 14,
+                "scheduled": "2024-01-01T08:15:00+00:00",
+                "estimated": "2024-01-01T08:15:00+00:00",
+                "actual": "2024-01-01T08:29:00+00:00",
+                "estimated_runway": "2024-01-01T08:29:00+00:00",
+                "actual_runway": "2024-01-01T08:29:00+00:00"
+            },
+            "arrival": {
+                "airport": "San Francisco International",
+                "timezone": "America/Los_Angeles",
+                "iata": "SFO",
+                "icao": "KSFO",
+                "terminal": "1",
+                "gate": "B22",
+                "baggage": "CL-B",
+                "delay": null,
+                "scheduled": "2024-01-01T09:31:00+00:00",
+                "estimated": "2024-01-01T09:31:00+00:00",
+                "actual": "2024-01-01T09:11:00+00:00",
+                "estimated_runway": "2024-01-01T09:11:00+00:00",
+                "actual_runway": "2024-01-01T09:11:00+00:00"
+            },
+            "airline": {
+                "name": "American Airlines",
+                "iata": "AA",
+                "icao": "AAL"
+            },
+            "flight": {
+                "number": "3185",
+                "iata": "AA3185",
+                "icao": "AAL3185",
+                "codeshared": null
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2024-01-01",
+            "flight_status": "landed",
+            "departure": {
+                "airport": "Sky Harbor International",
+                "timezone": "America/Phoenix",
+                "iata": "PHX",
+                "icao": "KPHX",
+                "terminal": "4",
+                "gate": "B21",
+                "delay": 14,
+                "scheduled": "2024-01-01T08:15:00+00:00",
+                "estimated": "2024-01-01T08:15:00+00:00",
+                "actual": "2024-01-01T08:29:00+00:00",
+                "estimated_runway": "2024-01-01T08:29:00+00:00",
+                "actual_runway": "2024-01-01T08:29:00+00:00"
+            },
+            "arrival": {
+                "airport": "San Francisco International",
+                "timezone": "America/Los_Angeles",
+                "iata": "SFO",
+                "icao": "KSFO",
+                "terminal": "1",
+                "gate": "B22",
+                "baggage": "CL-B",
+                "delay": null,
+                "scheduled": "2024-01-01T09:31:00+00:00",
+                "estimated": "2024-01-01T09:31:00+00:00",
+                "actual": "2024-01-01T09:11:00+00:00",
+                "estimated_runway": "2024-01-01T09:11:00+00:00",
+                "actual_runway": "2024-01-01T09:11:00+00:00"
+            },
+            "airline": {
+                "name": "Qatar Airways",
+                "iata": "QR",
+                "icao": "QTR"
+            },
+            "flight": {
+                "number": "9504",
+                "iata": "QR9504",
+                "icao": "QTR9504",
+                "codeshared": {
+                    "airline_name": "american airlines",
+                    "airline_iata": "aa",
+                    "airline_icao": "aal",
+                    "flight_number": "3185",
+                    "flight_iata": "aa3185",
+                    "flight_icao": "aal3185"
+                }
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2024-01-01",
+            "flight_status": "landed",
+            "departure": {
+                "airport": "Sky Harbor International",
+                "timezone": "America/Phoenix",
+                "iata": "PHX",
+                "icao": "KPHX",
+                "terminal": "4",
+                "gate": "B21",
+                "delay": 14,
+                "scheduled": "2024-01-01T08:15:00+00:00",
+                "estimated": "2024-01-01T08:15:00+00:00",
+                "actual": "2024-01-01T08:29:00+00:00",
+                "estimated_runway": "2024-01-01T08:29:00+00:00",
+                "actual_runway": "2024-01-01T08:29:00+00:00"
+            },
+            "arrival": {
+                "airport": "San Francisco International",
+                "timezone": "America/Los_Angeles",
+                "iata": "SFO",
+                "icao": "KSFO",
+                "terminal": "1",
+                "gate": "B22",
+                "baggage": "CL-B",
+                "delay": null,
+                "scheduled": "2024-01-01T09:31:00+00:00",
+                "estimated": "2024-01-01T09:31:00+00:00",
+                "actual": "2024-01-01T09:11:00+00:00",
+                "estimated_runway": "2024-01-01T09:11:00+00:00",
+                "actual_runway": "2024-01-01T09:11:00+00:00"
+            },
+            "airline": {
+                "name": "Jet Linx Aviation",
+                "iata": "JL",
+                "icao": "JTL"
+            },
+            "flight": {
+                "number": "7541",
+                "iata": "JL7541",
+                "icao": "JTL7541",
+                "codeshared": {
+                    "airline_name": "american airlines",
+                    "airline_iata": "aa",
+                    "airline_icao": "aal",
+                    "flight_number": "3185",
+                    "flight_iata": "aa3185",
+                    "flight_icao": "aal3185"
+                }
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2024-01-01",
+            "flight_status": "landed",
+            "departure": {
+                "airport": "Sky Harbor International",
+                "timezone": "America/Phoenix",
+                "iata": "PHX",
+                "icao": "KPHX",
+                "terminal": "3",
+                "gate": "E10",
+                "delay": 14,
+                "scheduled": "2024-01-01T08:00:00+00:00",
+                "estimated": "2024-01-01T08:00:00+00:00",
+                "actual": "2024-01-01T08:14:00+00:00",
+                "estimated_runway": "2024-01-01T08:14:00+00:00",
+                "actual_runway": "2024-01-01T08:14:00+00:00"
+            },
+            "arrival": {
+                "airport": "San Francisco International",
+                "timezone": "America/Los_Angeles",
+                "iata": "SFO",
+                "icao": "KSFO",
+                "terminal": "3",
+                "gate": "E9",
+                "baggage": "9",
+                "delay": null,
+                "scheduled": "2024-01-01T09:09:00+00:00",
+                "estimated": "2024-01-01T09:09:00+00:00",
+                "actual": "2024-01-01T08:48:00+00:00",
+                "estimated_runway": "2024-01-01T08:48:00+00:00",
+                "actual_runway": "2024-01-01T08:48:00+00:00"
+            },
+            "airline": {
+                "name": "United Airlines",
+                "iata": "UA",
+                "icao": "UAL"
+            },
+            "flight": {
+                "number": "2166",
+                "iata": "UA2166",
+                "icao": "UAL2166",
+                "codeshared": null
+            },
+            "aircraft": {
+                "registration": "N12238",
+                "iata": "B738",
+                "icao": "B738",
+                "icao24": "A05E02"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2024-01-01",
+            "flight_status": "landed",
+            "departure": {
+                "airport": "Sky Harbor International",
+                "timezone": "America/Phoenix",
+                "iata": "PHX",
+                "icao": "KPHX",
+                "terminal": "3",
+                "gate": "E10",
+                "delay": 14,
+                "scheduled": "2024-01-01T08:00:00+00:00",
+                "estimated": "2024-01-01T08:00:00+00:00",
+                "actual": "2024-01-01T08:14:00+00:00",
+                "estimated_runway": "2024-01-01T08:14:00+00:00",
+                "actual_runway": "2024-01-01T08:14:00+00:00"
+            },
+            "arrival": {
+                "airport": "San Francisco International",
+                "timezone": "America/Los_Angeles",
+                "iata": "SFO",
+                "icao": "KSFO",
+                "terminal": "3",
+                "gate": "E9",
+                "baggage": "9",
+                "delay": null,
+                "scheduled": "2024-01-01T09:09:00+00:00",
+                "estimated": "2024-01-01T09:09:00+00:00",
+                "actual": "2024-01-01T08:48:00+00:00",
+                "estimated_runway": "2024-01-01T08:48:00+00:00",
+                "actual_runway": "2024-01-01T08:48:00+00:00"
+            },
+            "airline": {
+                "name": "Virgin Australia",
+                "iata": "VA",
+                "icao": "VOZ"
+            },
+            "flight": {
+                "number": "8415",
+                "iata": "VA8415",
+                "icao": "VOZ8415",
+                "codeshared": {
+                    "airline_name": "united airlines",
+                    "airline_iata": "ua",
+                    "airline_icao": "ual",
+                    "flight_number": "2166",
+                    "flight_iata": "ua2166",
+                    "flight_icao": "ual2166"
+                }
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2024-01-01",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Portland International",
+                "timezone": "America/Los_Angeles",
+                "iata": "PDX",
+                "icao": "KPDX",
+                "terminal": null,
+                "gate": "E5",
+                "delay": null,
+                "scheduled": "2024-01-01T13:43:00+00:00",
+                "estimated": "2024-01-01T13:43:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "San Francisco International",
+                "timezone": "America/Los_Angeles",
+                "iata": "SFO",
+                "icao": "KSFO",
+                "terminal": "3",
+                "gate": "F20",
+                "baggage": "8",
+                "delay": null,
+                "scheduled": "2024-01-01T15:33:00+00:00",
+                "estimated": "2024-01-01T15:33:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "United Airlines",
+                "iata": "UA",
+                "icao": "UAL"
+            },
+            "flight": {
+                "number": "2633",
+                "iata": "UA2633",
+                "icao": "UAL2633",
+                "codeshared": null
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2024-01-01",
+            "flight_status": "active",
+            "departure": {
+                "airport": "Singapore Changi",
+                "timezone": "Asia/Singapore",
+                "iata": "SIN",
+                "icao": "WSSS",
+                "terminal": "2",
+                "gate": "11",
+                "delay": 760,
+                "scheduled": "2024-01-01T22:20:00+00:00",
+                "estimated": "2024-01-01T22:20:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "San Francisco International",
+                "timezone": "America/Los_Angeles",
+                "iata": "SFO",
+                "icao": "KSFO",
+                "terminal": "3",
+                "gate": null,
+                "baggage": null,
+                "delay": null,
+                "scheduled": "2024-01-01T21:10:00+00:00",
+                "estimated": "2024-01-01T21:10:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "United Airlines",
+                "iata": "UA",
+                "icao": "UAL"
+            },
+            "flight": {
+                "number": "28",
+                "iata": "UA28",
+                "icao": "UAL28",
+                "codeshared": null
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2024-01-01",
+            "flight_status": "landed",
+            "departure": {
+                "airport": "Minneapolis - St. Paul International",
+                "timezone": "America/Chicago",
+                "iata": "MSP",
+                "icao": "KMSP",
+                "terminal": "2",
+                "gate": "H9",
+                "delay": 32,
+                "scheduled": "2024-01-01T07:00:00+00:00",
+                "estimated": "2024-01-01T07:00:00+00:00",
+                "actual": "2024-01-01T07:32:00+00:00",
+                "estimated_runway": "2024-01-01T07:32:00+00:00",
+                "actual_runway": "2024-01-01T07:32:00+00:00"
+            },
+            "arrival": {
+                "airport": "San Francisco International",
+                "timezone": "America/Los_Angeles",
+                "iata": "SFO",
+                "icao": "KSFO",
+                "terminal": "I",
+                "gate": "A4",
+                "baggage": "CL12",
+                "delay": null,
+                "scheduled": "2024-01-01T09:31:00+00:00",
+                "estimated": "2024-01-01T09:31:00+00:00",
+                "actual": "2024-01-01T08:54:00+00:00",
+                "estimated_runway": "2024-01-01T08:54:00+00:00",
+                "actual_runway": "2024-01-01T08:54:00+00:00"
+            },
+            "airline": {
+                "name": "Sun Country Airlines",
+                "iata": "SY",
+                "icao": "SCX"
+            },
+            "flight": {
+                "number": "391",
+                "iata": "SY391",
+                "icao": "SCX391",
+                "codeshared": null
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2024-01-01",
+            "flight_status": "landed",
+            "departure": {
+                "airport": "Mc Carran International",
+                "timezone": "America/Los_Angeles",
+                "iata": "LAS",
+                "icao": "KLAS",
+                "terminal": "3",
+                "gate": "E12",
+                "delay": 14,
+                "scheduled": "2024-01-01T07:28:00+00:00",
+                "estimated": "2024-01-01T07:28:00+00:00",
+                "actual": "2024-01-01T07:41:00+00:00",
+                "estimated_runway": "2024-01-01T07:41:00+00:00",
+                "actual_runway": "2024-01-01T07:41:00+00:00"
+            },
+            "arrival": {
+                "airport": "San Francisco International",
+                "timezone": "America/Los_Angeles",
+                "iata": "SFO",
+                "icao": "KSFO",
+                "terminal": "2",
+                "gate": "D4",
+                "baggage": "3",
+                "delay": null,
+                "scheduled": "2024-01-01T09:13:00+00:00",
+                "estimated": "2024-01-01T09:13:00+00:00",
+                "actual": "2024-01-01T08:47:00+00:00",
+                "estimated_runway": "2024-01-01T08:47:00+00:00",
+                "actual_runway": "2024-01-01T08:47:00+00:00"
+            },
+            "airline": {
+                "name": "American Airlines",
+                "iata": "AA",
+                "icao": "AAL"
+            },
+            "flight": {
+                "number": "7565",
+                "iata": "AA7565",
+                "icao": "AAL7565",
+                "codeshared": {
+                    "airline_name": "alaska airlines",
+                    "airline_iata": "as",
+                    "airline_icao": "asa",
+                    "flight_number": "623",
+                    "flight_iata": "as623",
+                    "flight_icao": "asa623"
+                }
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2024-01-01",
+            "flight_status": "landed",
+            "departure": {
+                "airport": "Mc Carran International",
+                "timezone": "America/Los_Angeles",
+                "iata": "LAS",
+                "icao": "KLAS",
+                "terminal": "3",
+                "gate": "E12",
+                "delay": 14,
+                "scheduled": "2024-01-01T07:28:00+00:00",
+                "estimated": "2024-01-01T07:28:00+00:00",
+                "actual": "2024-01-01T07:41:00+00:00",
+                "estimated_runway": "2024-01-01T07:41:00+00:00",
+                "actual_runway": "2024-01-01T07:41:00+00:00"
+            },
+            "arrival": {
+                "airport": "San Francisco International",
+                "timezone": "America/Los_Angeles",
+                "iata": "SFO",
+                "icao": "KSFO",
+                "terminal": "2",
+                "gate": "D4",
+                "baggage": "3",
+                "delay": null,
+                "scheduled": "2024-01-01T09:13:00+00:00",
+                "estimated": "2024-01-01T09:13:00+00:00",
+                "actual": "2024-01-01T08:47:00+00:00",
+                "estimated_runway": "2024-01-01T08:47:00+00:00",
+                "actual_runway": "2024-01-01T08:47:00+00:00"
+            },
+            "airline": {
+                "name": "Jet Linx Aviation",
+                "iata": "JL",
+                "icao": "JTL"
+            },
+            "flight": {
+                "number": "5453",
+                "iata": "JL5453",
+                "icao": "JTL5453",
+                "codeshared": {
+                    "airline_name": "alaska airlines",
+                    "airline_iata": "as",
+                    "airline_icao": "asa",
+                    "flight_number": "623",
+                    "flight_iata": "as623",
+                    "flight_icao": "asa623"
+                }
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2024-01-01",
+            "flight_status": "landed",
+            "departure": {
+                "airport": "Mc Carran International",
+                "timezone": "America/Los_Angeles",
+                "iata": "LAS",
+                "icao": "KLAS",
+                "terminal": "3",
+                "gate": "E12",
+                "delay": 14,
+                "scheduled": "2024-01-01T07:28:00+00:00",
+                "estimated": "2024-01-01T07:28:00+00:00",
+                "actual": "2024-01-01T07:41:00+00:00",
+                "estimated_runway": "2024-01-01T07:41:00+00:00",
+                "actual_runway": "2024-01-01T07:41:00+00:00"
+            },
+            "arrival": {
+                "airport": "San Francisco International",
+                "timezone": "America/Los_Angeles",
+                "iata": "SFO",
+                "icao": "KSFO",
+                "terminal": "2",
+                "gate": "D4",
+                "baggage": "3",
+                "delay": null,
+                "scheduled": "2024-01-01T09:13:00+00:00",
+                "estimated": "2024-01-01T09:13:00+00:00",
+                "actual": "2024-01-01T08:47:00+00:00",
+                "estimated_runway": "2024-01-01T08:47:00+00:00",
+                "actual_runway": "2024-01-01T08:47:00+00:00"
+            },
+            "airline": {
+                "name": "Qatar Airways",
+                "iata": "QR",
+                "icao": "QTR"
+            },
+            "flight": {
+                "number": "2085",
+                "iata": "QR2085",
+                "icao": "QTR2085",
+                "codeshared": {
+                    "airline_name": "alaska airlines",
+                    "airline_iata": "as",
+                    "airline_icao": "asa",
+                    "flight_number": "623",
+                    "flight_iata": "as623",
+                    "flight_icao": "asa623"
+                }
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2024-01-01",
+            "flight_status": "landed",
+            "departure": {
+                "airport": "Mc Carran International",
+                "timezone": "America/Los_Angeles",
+                "iata": "LAS",
+                "icao": "KLAS",
+                "terminal": "3",
+                "gate": "E12",
+                "delay": 14,
+                "scheduled": "2024-01-01T07:28:00+00:00",
+                "estimated": "2024-01-01T07:28:00+00:00",
+                "actual": "2024-01-01T07:41:00+00:00",
+                "estimated_runway": "2024-01-01T07:41:00+00:00",
+                "actual_runway": "2024-01-01T07:41:00+00:00"
+            },
+            "arrival": {
+                "airport": "San Francisco International",
+                "timezone": "America/Los_Angeles",
+                "iata": "SFO",
+                "icao": "KSFO",
+                "terminal": "2",
+                "gate": "D4",
+                "baggage": "3",
+                "delay": null,
+                "scheduled": "2024-01-01T09:13:00+00:00",
+                "estimated": "2024-01-01T09:13:00+00:00",
+                "actual": "2024-01-01T08:47:00+00:00",
+                "estimated_runway": "2024-01-01T08:47:00+00:00",
+                "actual_runway": "2024-01-01T08:47:00+00:00"
+            },
+            "airline": {
+                "name": "Singapore Airlines",
+                "iata": "SQ",
+                "icao": "SIA"
+            },
+            "flight": {
+                "number": "1334",
+                "iata": "SQ1334",
+                "icao": "SIA1334",
+                "codeshared": {
+                    "airline_name": "alaska airlines",
+                    "airline_iata": "as",
+                    "airline_icao": "asa",
+                    "flight_number": "623",
+                    "flight_iata": "as623",
+                    "flight_icao": "asa623"
+                }
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2024-01-01",
+            "flight_status": "landed",
+            "departure": {
+                "airport": "Mc Carran International",
+                "timezone": "America/Los_Angeles",
+                "iata": "LAS",
+                "icao": "KLAS",
+                "terminal": "3",
+                "gate": "E12",
+                "delay": 14,
+                "scheduled": "2024-01-01T07:28:00+00:00",
+                "estimated": "2024-01-01T07:28:00+00:00",
+                "actual": "2024-01-01T07:41:00+00:00",
+                "estimated_runway": "2024-01-01T07:41:00+00:00",
+                "actual_runway": "2024-01-01T07:41:00+00:00"
+            },
+            "arrival": {
+                "airport": "San Francisco International",
+                "timezone": "America/Los_Angeles",
+                "iata": "SFO",
+                "icao": "KSFO",
+                "terminal": "2",
+                "gate": "D4",
+                "baggage": "3",
+                "delay": null,
+                "scheduled": "2024-01-01T09:13:00+00:00",
+                "estimated": "2024-01-01T09:13:00+00:00",
+                "actual": "2024-01-01T08:47:00+00:00",
+                "estimated_runway": "2024-01-01T08:47:00+00:00",
+                "actual_runway": "2024-01-01T08:47:00+00:00"
+            },
+            "airline": {
+                "name": "Alaska Airlines",
+                "iata": "AS",
+                "icao": "ASA"
+            },
+            "flight": {
+                "number": "623",
+                "iata": "AS623",
+                "icao": "ASA623",
+                "codeshared": null
+            },
+            "aircraft": {
+                "registration": "N481AS",
+                "iata": "B739",
+                "icao": "B739",
+                "icao24": "A5EC61"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2024-01-01",
+            "flight_status": "landed",
+            "departure": {
+                "airport": "Mc Carran International",
+                "timezone": "America/Los_Angeles",
+                "iata": "LAS",
+                "icao": "KLAS",
+                "terminal": "3",
+                "gate": "D56",
+                "delay": 33,
+                "scheduled": "2024-01-01T07:45:00+00:00",
+                "estimated": "2024-01-01T07:45:00+00:00",
+                "actual": "2024-01-01T08:17:00+00:00",
+                "estimated_runway": "2024-01-01T08:17:00+00:00",
+                "actual_runway": "2024-01-01T08:17:00+00:00"
+            },
+            "arrival": {
+                "airport": "San Francisco International",
+                "timezone": "America/Los_Angeles",
+                "iata": "SFO",
+                "icao": "KSFO",
+                "terminal": "3",
+                "gate": "E6",
+                "baggage": "6",
+                "delay": null,
+                "scheduled": "2024-01-01T09:29:00+00:00",
+                "estimated": "2024-01-01T09:29:00+00:00",
+                "actual": "2024-01-01T09:20:00+00:00",
+                "estimated_runway": "2024-01-01T09:20:00+00:00",
+                "actual_runway": "2024-01-01T09:20:00+00:00"
+            },
+            "airline": {
+                "name": "Air Canada",
+                "iata": "AC",
+                "icao": "ACA"
+            },
+            "flight": {
+                "number": "5441",
+                "iata": "AC5441",
+                "icao": "ACA5441",
+                "codeshared": {
+                    "airline_name": "united airlines",
+                    "airline_iata": "ua",
+                    "airline_icao": "ual",
+                    "flight_number": "2355",
+                    "flight_iata": "ua2355",
+                    "flight_icao": "ual2355"
+                }
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2024-01-01",
+            "flight_status": "landed",
+            "departure": {
+                "airport": "Mc Carran International",
+                "timezone": "America/Los_Angeles",
+                "iata": "LAS",
+                "icao": "KLAS",
+                "terminal": "3",
+                "gate": "D56",
+                "delay": 33,
+                "scheduled": "2024-01-01T07:45:00+00:00",
+                "estimated": "2024-01-01T07:45:00+00:00",
+                "actual": "2024-01-01T08:17:00+00:00",
+                "estimated_runway": "2024-01-01T08:17:00+00:00",
+                "actual_runway": "2024-01-01T08:17:00+00:00"
+            },
+            "arrival": {
+                "airport": "San Francisco International",
+                "timezone": "America/Los_Angeles",
+                "iata": "SFO",
+                "icao": "KSFO",
+                "terminal": "3",
+                "gate": "E6",
+                "baggage": "6",
+                "delay": null,
+                "scheduled": "2024-01-01T09:29:00+00:00",
+                "estimated": "2024-01-01T09:29:00+00:00",
+                "actual": "2024-01-01T09:20:00+00:00",
+                "estimated_runway": "2024-01-01T09:20:00+00:00",
+                "actual_runway": "2024-01-01T09:20:00+00:00"
+            },
+            "airline": {
+                "name": "ANA",
+                "iata": "NH",
+                "icao": "ANA"
+            },
+            "flight": {
+                "number": "7309",
+                "iata": "NH7309",
+                "icao": "ANA7309",
+                "codeshared": {
+                    "airline_name": "united airlines",
+                    "airline_iata": "ua",
+                    "airline_icao": "ual",
+                    "flight_number": "2355",
+                    "flight_iata": "ua2355",
+                    "flight_icao": "ual2355"
+                }
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2024-01-01",
+            "flight_status": "landed",
+            "departure": {
+                "airport": "Mc Carran International",
+                "timezone": "America/Los_Angeles",
+                "iata": "LAS",
+                "icao": "KLAS",
+                "terminal": "3",
+                "gate": "D56",
+                "delay": 33,
+                "scheduled": "2024-01-01T07:45:00+00:00",
+                "estimated": "2024-01-01T07:45:00+00:00",
+                "actual": "2024-01-01T08:17:00+00:00",
+                "estimated_runway": "2024-01-01T08:17:00+00:00",
+                "actual_runway": "2024-01-01T08:17:00+00:00"
+            },
+            "arrival": {
+                "airport": "San Francisco International",
+                "timezone": "America/Los_Angeles",
+                "iata": "SFO",
+                "icao": "KSFO",
+                "terminal": "3",
+                "gate": "E6",
+                "baggage": "6",
+                "delay": null,
+                "scheduled": "2024-01-01T09:29:00+00:00",
+                "estimated": "2024-01-01T09:29:00+00:00",
+                "actual": "2024-01-01T09:20:00+00:00",
+                "estimated_runway": "2024-01-01T09:20:00+00:00",
+                "actual_runway": "2024-01-01T09:20:00+00:00"
+            },
+            "airline": {
+                "name": "Air New Zealand",
+                "iata": "NZ",
+                "icao": "ANZ"
+            },
+            "flight": {
+                "number": "9235",
+                "iata": "NZ9235",
+                "icao": "ANZ9235",
+                "codeshared": {
+                    "airline_name": "united airlines",
+                    "airline_iata": "ua",
+                    "airline_icao": "ual",
+                    "flight_number": "2355",
+                    "flight_iata": "ua2355",
+                    "flight_icao": "ual2355"
+                }
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2024-01-01",
+            "flight_status": "landed",
+            "departure": {
+                "airport": "Mc Carran International",
+                "timezone": "America/Los_Angeles",
+                "iata": "LAS",
+                "icao": "KLAS",
+                "terminal": "3",
+                "gate": "D56",
+                "delay": 33,
+                "scheduled": "2024-01-01T07:45:00+00:00",
+                "estimated": "2024-01-01T07:45:00+00:00",
+                "actual": "2024-01-01T08:17:00+00:00",
+                "estimated_runway": "2024-01-01T08:17:00+00:00",
+                "actual_runway": "2024-01-01T08:17:00+00:00"
+            },
+            "arrival": {
+                "airport": "San Francisco International",
+                "timezone": "America/Los_Angeles",
+                "iata": "SFO",
+                "icao": "KSFO",
+                "terminal": "3",
+                "gate": "E6",
+                "baggage": "6",
+                "delay": null,
+                "scheduled": "2024-01-01T09:29:00+00:00",
+                "estimated": "2024-01-01T09:29:00+00:00",
+                "actual": "2024-01-01T09:20:00+00:00",
+                "estimated_runway": "2024-01-01T09:20:00+00:00",
+                "actual_runway": "2024-01-01T09:20:00+00:00"
+            },
+            "airline": {
+                "name": "Asiana Airlines",
+                "iata": "OZ",
+                "icao": "AAR"
+            },
+            "flight": {
+                "number": "6341",
+                "iata": "OZ6341",
+                "icao": "AAR6341",
+                "codeshared": {
+                    "airline_name": "united airlines",
+                    "airline_iata": "ua",
+                    "airline_icao": "ual",
+                    "flight_number": "2355",
+                    "flight_iata": "ua2355",
+                    "flight_icao": "ual2355"
+                }
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2024-01-01",
+            "flight_status": "landed",
+            "departure": {
+                "airport": "Mc Carran International",
+                "timezone": "America/Los_Angeles",
+                "iata": "LAS",
+                "icao": "KLAS",
+                "terminal": "3",
+                "gate": "D56",
+                "delay": 33,
+                "scheduled": "2024-01-01T07:45:00+00:00",
+                "estimated": "2024-01-01T07:45:00+00:00",
+                "actual": "2024-01-01T08:17:00+00:00",
+                "estimated_runway": "2024-01-01T08:17:00+00:00",
+                "actual_runway": "2024-01-01T08:17:00+00:00"
+            },
+            "arrival": {
+                "airport": "San Francisco International",
+                "timezone": "America/Los_Angeles",
+                "iata": "SFO",
+                "icao": "KSFO",
+                "terminal": "3",
+                "gate": "E6",
+                "baggage": "6",
+                "delay": null,
+                "scheduled": "2024-01-01T09:29:00+00:00",
+                "estimated": "2024-01-01T09:29:00+00:00",
+                "actual": "2024-01-01T09:20:00+00:00",
+                "estimated_runway": "2024-01-01T09:20:00+00:00",
+                "actual_runway": "2024-01-01T09:20:00+00:00"
+            },
+            "airline": {
+                "name": "Virgin Australia",
+                "iata": "VA",
+                "icao": "VOZ"
+            },
+            "flight": {
+                "number": "8128",
+                "iata": "VA8128",
+                "icao": "VOZ8128",
+                "codeshared": {
+                    "airline_name": "united airlines",
+                    "airline_iata": "ua",
+                    "airline_icao": "ual",
+                    "flight_number": "2355",
+                    "flight_iata": "ua2355",
+                    "flight_icao": "ual2355"
+                }
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2024-01-01",
+            "flight_status": "landed",
+            "departure": {
+                "airport": "Mc Carran International",
+                "timezone": "America/Los_Angeles",
+                "iata": "LAS",
+                "icao": "KLAS",
+                "terminal": "3",
+                "gate": "D56",
+                "delay": 33,
+                "scheduled": "2024-01-01T07:45:00+00:00",
+                "estimated": "2024-01-01T07:45:00+00:00",
+                "actual": "2024-01-01T08:17:00+00:00",
+                "estimated_runway": "2024-01-01T08:17:00+00:00",
+                "actual_runway": "2024-01-01T08:17:00+00:00"
+            },
+            "arrival": {
+                "airport": "San Francisco International",
+                "timezone": "America/Los_Angeles",
+                "iata": "SFO",
+                "icao": "KSFO",
+                "terminal": "3",
+                "gate": "E6",
+                "baggage": "6",
+                "delay": null,
+                "scheduled": "2024-01-01T09:29:00+00:00",
+                "estimated": "2024-01-01T09:29:00+00:00",
+                "actual": "2024-01-01T09:20:00+00:00",
+                "estimated_runway": "2024-01-01T09:20:00+00:00",
+                "actual_runway": "2024-01-01T09:20:00+00:00"
+            },
+            "airline": {
+                "name": "United Airlines",
+                "iata": "UA",
+                "icao": "UAL"
+            },
+            "flight": {
+                "number": "2355",
+                "iata": "UA2355",
+                "icao": "UAL2355",
+                "codeshared": null
+            },
+            "aircraft": {
+                "registration": "N17310",
+                "iata": "B38M",
+                "icao": "B38M",
+                "icao24": "A126E6"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2024-01-01",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Mc Carran International",
+                "timezone": "America/Los_Angeles",
+                "iata": "LAS",
+                "icao": "KLAS",
+                "terminal": "1",
+                "gate": "C2",
+                "delay": 10,
+                "scheduled": "2024-01-01T10:25:00+00:00",
+                "estimated": "2024-01-01T10:25:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "San Francisco International",
+                "timezone": "America/Los_Angeles",
+                "iata": "SFO",
+                "icao": "KSFO",
+                "terminal": "1",
+                "gate": "B12",
+                "baggage": null,
+                "delay": null,
+                "scheduled": "2024-01-01T12:05:00+00:00",
+                "estimated": "2024-01-01T12:05:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Southwest Airlines",
+                "iata": "WN",
+                "icao": "SWA"
+            },
+            "flight": {
+                "number": "2923",
+                "iata": "WN2923",
+                "icao": "SWA2923",
+                "codeshared": null
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2024-01-01",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Mc Carran International",
+                "timezone": "America/Los_Angeles",
+                "iata": "LAS",
+                "icao": "KLAS",
+                "terminal": "3",
+                "gate": "D58",
+                "delay": null,
+                "scheduled": "2024-01-01T10:15:00+00:00",
+                "estimated": "2024-01-01T10:15:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "San Francisco International",
+                "timezone": "America/Los_Angeles",
+                "iata": "SFO",
+                "icao": "KSFO",
+                "terminal": "3",
+                "gate": "E7",
+                "baggage": "6",
+                "delay": null,
+                "scheduled": "2024-01-01T11:59:00+00:00",
+                "estimated": "2024-01-01T11:59:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "United Airlines",
+                "iata": "UA",
+                "icao": "UAL"
+            },
+            "flight": {
+                "number": "2231",
+                "iata": "UA2231",
+                "icao": "UAL2231",
+                "codeshared": null
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2024-01-01",
+            "flight_status": "active",
+            "departure": {
+                "airport": "Newark Liberty International",
+                "timezone": "America/New_York",
+                "iata": "EWR",
+                "icao": "KEWR",
+                "terminal": "C",
+                "gate": "110",
+                "delay": 22,
+                "scheduled": "2024-01-01T14:00:00+00:00",
+                "estimated": "2024-01-01T14:00:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "San Francisco International",
+                "timezone": "America/Los_Angeles",
+                "iata": "SFO",
+                "icao": "KSFO",
+                "terminal": "I",
+                "gate": "G1",
+                "baggage": "5",
+                "delay": null,
+                "scheduled": "2024-01-01T17:22:00+00:00",
+                "estimated": "2024-01-01T17:22:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "United Airlines",
+                "iata": "UA",
+                "icao": "UAL"
+            },
+            "flight": {
+                "number": "2133",
+                "iata": "UA2133",
+                "icao": "UAL2133",
+                "codeshared": null
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2024-01-01",
+            "flight_status": "active",
+            "departure": {
+                "airport": "Newark Liberty International",
+                "timezone": "America/New_York",
+                "iata": "EWR",
+                "icao": "KEWR",
+                "terminal": "C",
+                "gate": "110",
+                "delay": 22,
+                "scheduled": "2024-01-01T14:00:00+00:00",
+                "estimated": "2024-01-01T14:00:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "San Francisco International",
+                "timezone": "America/Los_Angeles",
+                "iata": "SFO",
+                "icao": "KSFO",
+                "terminal": "I",
+                "gate": "G1",
+                "baggage": "5",
+                "delay": null,
+                "scheduled": "2024-01-01T17:22:00+00:00",
+                "estimated": "2024-01-01T17:22:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Virgin Australia",
+                "iata": "VA",
+                "icao": "VOZ"
+            },
+            "flight": {
+                "number": "8515",
+                "iata": "VA8515",
+                "icao": "VOZ8515",
+                "codeshared": {
+                    "airline_name": "united airlines",
+                    "airline_iata": "ua",
+                    "airline_icao": "ual",
+                    "flight_number": "2133",
+                    "flight_iata": "ua2133",
+                    "flight_icao": "ual2133"
+                }
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2024-01-01",
+            "flight_status": "active",
+            "departure": {
+                "airport": "Newark Liberty International",
+                "timezone": "America/New_York",
+                "iata": "EWR",
+                "icao": "KEWR",
+                "terminal": "C",
+                "gate": "110",
+                "delay": 22,
+                "scheduled": "2024-01-01T14:00:00+00:00",
+                "estimated": "2024-01-01T14:00:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "San Francisco International",
+                "timezone": "America/Los_Angeles",
+                "iata": "SFO",
+                "icao": "KSFO",
+                "terminal": "I",
+                "gate": "G1",
+                "baggage": "5",
+                "delay": null,
+                "scheduled": "2024-01-01T17:22:00+00:00",
+                "estimated": "2024-01-01T17:22:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Air New Zealand",
+                "iata": "NZ",
+                "icao": "ANZ"
+            },
+            "flight": {
+                "number": "9121",
+                "iata": "NZ9121",
+                "icao": "ANZ9121",
+                "codeshared": {
+                    "airline_name": "united airlines",
+                    "airline_iata": "ua",
+                    "airline_icao": "ual",
+                    "flight_number": "2133",
+                    "flight_iata": "ua2133",
+                    "flight_icao": "ual2133"
+                }
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2024-01-01",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Los Cabos",
+                "timezone": "America/Mazatlan",
+                "iata": "SJD",
+                "icao": "MMSD",
+                "terminal": "2",
+                "gate": "11",
+                "delay": null,
+                "scheduled": "2024-01-01T11:42:00+00:00",
+                "estimated": "2024-01-01T11:42:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "San Francisco International",
+                "timezone": "America/Los_Angeles",
+                "iata": "SFO",
+                "icao": "KSFO",
+                "terminal": "I",
+                "gate": null,
+                "baggage": "CL11",
+                "delay": null,
+                "scheduled": "2024-01-01T14:05:00+00:00",
+                "estimated": "2024-01-01T14:05:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Alaska Airlines",
+                "iata": "AS",
+                "icao": "ASA"
+            },
+            "flight": {
+                "number": "1345",
+                "iata": "AS1345",
+                "icao": "ASA1345",
+                "codeshared": null
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2024-01-01",
+            "flight_status": "active",
+            "departure": {
+                "airport": "Los Cabos",
+                "timezone": "America/Mazatlan",
+                "iata": "SJD",
+                "icao": "MMSD",
+                "terminal": "2",
+                "gate": "13",
+                "delay": null,
+                "scheduled": "2024-01-01T11:42:00+00:00",
+                "estimated": "2024-01-01T11:42:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "San Francisco International",
+                "timezone": "America/Los_Angeles",
+                "iata": "SFO",
+                "icao": "KSFO",
+                "terminal": "I",
+                "gate": null,
+                "baggage": "CL8",
+                "delay": null,
+                "scheduled": "2024-01-01T14:05:00+00:00",
+                "estimated": "2024-01-01T14:05:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Singapore Airlines",
+                "iata": "SQ",
+                "icao": "SIA"
+            },
+            "flight": {
+                "number": "1291",
+                "iata": "SQ1291",
+                "icao": "SIA1291",
+                "codeshared": {
+                    "airline_name": "alaska airlines",
+                    "airline_iata": "as",
+                    "airline_icao": "asa",
+                    "flight_number": "1345",
+                    "flight_iata": "as1345",
+                    "flight_icao": "asa1345"
+                }
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2024-01-01",
+            "flight_status": "active",
+            "departure": {
+                "airport": "Los Cabos",
+                "timezone": "America/Mazatlan",
+                "iata": "SJD",
+                "icao": "MMSD",
+                "terminal": "2",
+                "gate": "13",
+                "delay": null,
+                "scheduled": "2024-01-01T11:42:00+00:00",
+                "estimated": "2024-01-01T11:42:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "San Francisco International",
+                "timezone": "America/Los_Angeles",
+                "iata": "SFO",
+                "icao": "KSFO",
+                "terminal": "I",
+                "gate": null,
+                "baggage": "CL8",
+                "delay": null,
+                "scheduled": "2024-01-01T14:05:00+00:00",
+                "estimated": "2024-01-01T14:05:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Qantas",
+                "iata": "QF",
+                "icao": "QFA"
+            },
+            "flight": {
+                "number": "3755",
+                "iata": "QF3755",
+                "icao": "QFA3755",
+                "codeshared": {
+                    "airline_name": "alaska airlines",
+                    "airline_iata": "as",
+                    "airline_icao": "asa",
+                    "flight_number": "1345",
+                    "flight_iata": "as1345",
+                    "flight_icao": "asa1345"
+                }
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2024-01-01",
+            "flight_status": "active",
+            "departure": {
+                "airport": "Los Cabos",
+                "timezone": "America/Mazatlan",
+                "iata": "SJD",
+                "icao": "MMSD",
+                "terminal": "2",
+                "gate": "13",
+                "delay": null,
+                "scheduled": "2024-01-01T11:42:00+00:00",
+                "estimated": "2024-01-01T11:42:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "San Francisco International",
+                "timezone": "America/Los_Angeles",
+                "iata": "SFO",
+                "icao": "KSFO",
+                "terminal": "I",
+                "gate": null,
+                "baggage": "CL8",
+                "delay": null,
+                "scheduled": "2024-01-01T14:05:00+00:00",
+                "estimated": "2024-01-01T14:05:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Singapore Airlines",
+                "iata": "SQ",
+                "icao": "SIA"
+            },
+            "flight": {
+                "number": "1781",
+                "iata": "SQ1781",
+                "icao": "SIA1781",
+                "codeshared": {
+                    "airline_name": "alaska airlines",
+                    "airline_iata": "as",
+                    "airline_icao": "asa",
+                    "flight_number": "1345",
+                    "flight_iata": "as1345",
+                    "flight_icao": "asa1345"
+                }
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2024-01-01",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Detroit Metropolitan Wayne County",
+                "timezone": "America/Detroit",
+                "iata": "DTW",
+                "icao": "KDTW",
+                "terminal": "EM",
+                "gate": "A10",
+                "delay": 7,
+                "scheduled": "2024-01-01T17:04:00+00:00",
+                "estimated": "2024-01-01T17:04:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "San Francisco International",
+                "timezone": "America/Los_Angeles",
+                "iata": "SFO",
+                "icao": "KSFO",
+                "terminal": "2",
+                "gate": "C8",
+                "baggage": "2",
+                "delay": null,
+                "scheduled": "2024-01-01T19:23:00+00:00",
+                "estimated": "2024-01-01T19:23:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Delta Air Lines",
+                "iata": "DL",
+                "icao": "DAL"
+            },
+            "flight": {
+                "number": "963",
+                "iata": "DL963",
+                "icao": "DAL963",
+                "codeshared": null
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2024-01-01",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Honolulu International",
+                "timezone": "Pacific/Honolulu",
+                "iata": "HNL",
+                "icao": "PHNL",
+                "terminal": "2",
+                "gate": "G3",
+                "delay": null,
+                "scheduled": "2024-01-01T08:00:00+00:00",
+                "estimated": "2024-01-01T08:00:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "San Francisco International",
+                "timezone": "America/Los_Angeles",
+                "iata": "SFO",
+                "icao": "KSFO",
+                "terminal": "3",
+                "gate": "F11",
+                "baggage": "1",
+                "delay": null,
+                "scheduled": "2024-01-01T15:16:00+00:00",
+                "estimated": "2024-01-01T15:16:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "United Airlines",
+                "iata": "UA",
+                "icao": "UAL"
+            },
+            "flight": {
+                "number": "372",
+                "iata": "UA372",
+                "icao": "UAL372",
+                "codeshared": null
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2024-01-01",
+            "flight_status": "active",
+            "departure": {
+                "airport": "Honolulu International",
+                "timezone": "Pacific/Honolulu",
+                "iata": "HNL",
+                "icao": "PHNL",
+                "terminal": "2",
+                "gate": "G3",
+                "delay": null,
+                "scheduled": "2024-01-01T08:00:00+00:00",
+                "estimated": "2024-01-01T08:00:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "San Francisco International",
+                "timezone": "America/Los_Angeles",
+                "iata": "SFO",
+                "icao": "KSFO",
+                "terminal": "3",
+                "gate": "F11",
+                "baggage": "1",
+                "delay": null,
+                "scheduled": "2024-01-01T15:16:00+00:00",
+                "estimated": "2024-01-01T15:16:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Turkish Airlines",
+                "iata": "TK",
+                "icao": "THY"
+            },
+            "flight": {
+                "number": "8889",
+                "iata": "TK8889",
+                "icao": "THY8889",
+                "codeshared": {
+                    "airline_name": "united airlines",
+                    "airline_iata": "ua",
+                    "airline_icao": "ual",
+                    "flight_number": "372",
+                    "flight_iata": "ua372",
+                    "flight_icao": "ual372"
+                }
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2024-01-01",
+            "flight_status": "active",
+            "departure": {
+                "airport": "Honolulu International",
+                "timezone": "Pacific/Honolulu",
+                "iata": "HNL",
+                "icao": "PHNL",
+                "terminal": "2",
+                "gate": "G3",
+                "delay": null,
+                "scheduled": "2024-01-01T08:00:00+00:00",
+                "estimated": "2024-01-01T08:00:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "San Francisco International",
+                "timezone": "America/Los_Angeles",
+                "iata": "SFO",
+                "icao": "KSFO",
+                "terminal": "3",
+                "gate": "F11",
+                "baggage": "1",
+                "delay": null,
+                "scheduled": "2024-01-01T15:16:00+00:00",
+                "estimated": "2024-01-01T15:16:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Air New Zealand",
+                "iata": "NZ",
+                "icao": "ANZ"
+            },
+            "flight": {
+                "number": "9150",
+                "iata": "NZ9150",
+                "icao": "ANZ9150",
+                "codeshared": {
+                    "airline_name": "united airlines",
+                    "airline_iata": "ua",
+                    "airline_icao": "ual",
+                    "flight_number": "372",
+                    "flight_iata": "ua372",
+                    "flight_icao": "ual372"
+                }
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2024-01-01",
+            "flight_status": "active",
+            "departure": {
+                "airport": "Honolulu International",
+                "timezone": "Pacific/Honolulu",
+                "iata": "HNL",
+                "icao": "PHNL",
+                "terminal": "2",
+                "gate": "G3",
+                "delay": null,
+                "scheduled": "2024-01-01T08:00:00+00:00",
+                "estimated": "2024-01-01T08:00:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "San Francisco International",
+                "timezone": "America/Los_Angeles",
+                "iata": "SFO",
+                "icao": "KSFO",
+                "terminal": "3",
+                "gate": "F11",
+                "baggage": "1",
+                "delay": null,
+                "scheduled": "2024-01-01T15:16:00+00:00",
+                "estimated": "2024-01-01T15:16:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "SWISS",
+                "iata": "LX",
+                "icao": "SWR"
+            },
+            "flight": {
+                "number": "3239",
+                "iata": "LX3239",
+                "icao": "SWR3239",
+                "codeshared": {
+                    "airline_name": "united airlines",
+                    "airline_iata": "ua",
+                    "airline_icao": "ual",
+                    "flight_number": "372",
+                    "flight_iata": "ua372",
+                    "flight_icao": "ual372"
+                }
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2024-01-01",
+            "flight_status": "active",
+            "departure": {
+                "airport": "Honolulu International",
+                "timezone": "Pacific/Honolulu",
+                "iata": "HNL",
+                "icao": "PHNL",
+                "terminal": "2",
+                "gate": "G3",
+                "delay": null,
+                "scheduled": "2024-01-01T08:00:00+00:00",
+                "estimated": "2024-01-01T08:00:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "San Francisco International",
+                "timezone": "America/Los_Angeles",
+                "iata": "SFO",
+                "icao": "KSFO",
+                "terminal": "3",
+                "gate": "F11",
+                "baggage": "1",
+                "delay": null,
+                "scheduled": "2024-01-01T15:16:00+00:00",
+                "estimated": "2024-01-01T15:16:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Lufthansa",
+                "iata": "LH",
+                "icao": "DLH"
+            },
+            "flight": {
+                "number": "9177",
+                "iata": "LH9177",
+                "icao": "DLH9177",
+                "codeshared": {
+                    "airline_name": "united airlines",
+                    "airline_iata": "ua",
+                    "airline_icao": "ual",
+                    "flight_number": "372",
+                    "flight_iata": "ua372",
+                    "flight_icao": "ual372"
+                }
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2024-01-01",
+            "flight_status": "active",
+            "departure": {
+                "airport": "Honolulu International",
+                "timezone": "Pacific/Honolulu",
+                "iata": "HNL",
+                "icao": "PHNL",
+                "terminal": "2",
+                "gate": "G3",
+                "delay": null,
+                "scheduled": "2024-01-01T08:00:00+00:00",
+                "estimated": "2024-01-01T08:00:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "San Francisco International",
+                "timezone": "America/Los_Angeles",
+                "iata": "SFO",
+                "icao": "KSFO",
+                "terminal": "3",
+                "gate": "F11",
+                "baggage": "1",
+                "delay": null,
+                "scheduled": "2024-01-01T15:16:00+00:00",
+                "estimated": "2024-01-01T15:16:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Air Canada",
+                "iata": "AC",
+                "icao": "ACA"
+            },
+            "flight": {
+                "number": "3517",
+                "iata": "AC3517",
+                "icao": "ACA3517",
+                "codeshared": {
+                    "airline_name": "united airlines",
+                    "airline_iata": "ua",
+                    "airline_icao": "ual",
+                    "flight_number": "372",
+                    "flight_iata": "ua372",
+                    "flight_icao": "ual372"
+                }
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2024-01-01",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Seattle-Tacoma International",
+                "timezone": "America/Los_Angeles",
+                "iata": "SEA",
+                "icao": "KSEA",
+                "terminal": null,
+                "gate": "A13",
+                "delay": null,
+                "scheduled": "2024-01-01T14:55:00+00:00",
+                "estimated": "2024-01-01T14:55:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "San Francisco International",
+                "timezone": "America/Los_Angeles",
+                "iata": "SFO",
+                "icao": "KSFO",
+                "terminal": "3",
+                "gate": "F21",
+                "baggage": "2",
+                "delay": null,
+                "scheduled": "2024-01-01T17:09:00+00:00",
+                "estimated": "2024-01-01T17:09:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "United Airlines",
+                "iata": "UA",
+                "icao": "UAL"
+            },
+            "flight": {
+                "number": "1632",
+                "iata": "UA1632",
+                "icao": "UAL1632",
+                "codeshared": null
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2024-01-01",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Jackson Hole",
+                "timezone": "America/Denver",
+                "iata": "JAC",
+                "icao": "KJAC",
+                "terminal": null,
+                "gate": "3",
+                "delay": null,
+                "scheduled": "2024-01-01T15:35:00+00:00",
+                "estimated": "2024-01-01T15:35:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "San Francisco International",
+                "timezone": "America/Los_Angeles",
+                "iata": "SFO",
+                "icao": "KSFO",
+                "terminal": "3",
+                "gate": "F15",
+                "baggage": "8",
+                "delay": null,
+                "scheduled": "2024-01-01T17:11:00+00:00",
+                "estimated": "2024-01-01T17:11:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "United Airlines",
+                "iata": "UA",
+                "icao": "UAL"
+            },
+            "flight": {
+                "number": "2064",
+                "iata": "UA2064",
+                "icao": "UAL2064",
+                "codeshared": null
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2024-01-01",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Jackson Hole",
+                "timezone": "America/Denver",
+                "iata": "JAC",
+                "icao": "KJAC",
+                "terminal": null,
+                "gate": "3",
+                "delay": null,
+                "scheduled": "2024-01-01T15:35:00+00:00",
+                "estimated": "2024-01-01T15:35:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "San Francisco International",
+                "timezone": "America/Los_Angeles",
+                "iata": "SFO",
+                "icao": "KSFO",
+                "terminal": "3",
+                "gate": "F15",
+                "baggage": "8",
+                "delay": null,
+                "scheduled": "2024-01-01T17:11:00+00:00",
+                "estimated": "2024-01-01T17:11:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Air New Zealand",
+                "iata": "NZ",
+                "icao": "ANZ"
+            },
+            "flight": {
+                "number": "9486",
+                "iata": "NZ9486",
+                "icao": "ANZ9486",
+                "codeshared": {
+                    "airline_name": "united airlines",
+                    "airline_iata": "ua",
+                    "airline_icao": "ual",
+                    "flight_number": "2064",
+                    "flight_iata": "ua2064",
+                    "flight_icao": "ual2064"
+                }
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2024-01-01",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Albuquerque International",
+                "timezone": "America/Denver",
+                "iata": "ABQ",
+                "icao": "KABQ",
+                "terminal": null,
+                "gate": "A3",
+                "delay": null,
+                "scheduled": "2024-01-01T15:29:00+00:00",
+                "estimated": "2024-01-01T15:29:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "San Francisco International",
+                "timezone": "America/Los_Angeles",
+                "iata": "SFO",
+                "icao": "KSFO",
+                "terminal": "3",
+                "gate": "E7",
+                "baggage": "9",
+                "delay": null,
+                "scheduled": "2024-01-01T17:15:00+00:00",
+                "estimated": "2024-01-01T17:15:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "United Airlines",
+                "iata": "UA",
+                "icao": "UAL"
+            },
+            "flight": {
+                "number": "341",
+                "iata": "UA341",
+                "icao": "UAL341",
+                "codeshared": null
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2024-01-01",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Albuquerque International",
+                "timezone": "America/Denver",
+                "iata": "ABQ",
+                "icao": "KABQ",
+                "terminal": null,
+                "gate": "A3",
+                "delay": null,
+                "scheduled": "2024-01-01T15:29:00+00:00",
+                "estimated": "2024-01-01T15:29:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "San Francisco International",
+                "timezone": "America/Los_Angeles",
+                "iata": "SFO",
+                "icao": "KSFO",
+                "terminal": "3",
+                "gate": "E7",
+                "baggage": "9",
+                "delay": null,
+                "scheduled": "2024-01-01T17:15:00+00:00",
+                "estimated": "2024-01-01T17:15:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Air New Zealand",
+                "iata": "NZ",
+                "icao": "ANZ"
+            },
+            "flight": {
+                "number": "9098",
+                "iata": "NZ9098",
+                "icao": "ANZ9098",
+                "codeshared": {
+                    "airline_name": "united airlines",
+                    "airline_iata": "ua",
+                    "airline_icao": "ual",
+                    "flight_number": "341",
+                    "flight_iata": "ua341",
+                    "flight_icao": "ual341"
+                }
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2024-01-01",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Albuquerque International",
+                "timezone": "America/Denver",
+                "iata": "ABQ",
+                "icao": "KABQ",
+                "terminal": null,
+                "gate": "A3",
+                "delay": null,
+                "scheduled": "2024-01-01T15:29:00+00:00",
+                "estimated": "2024-01-01T15:29:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "San Francisco International",
+                "timezone": "America/Los_Angeles",
+                "iata": "SFO",
+                "icao": "KSFO",
+                "terminal": "3",
+                "gate": "E7",
+                "baggage": "9",
+                "delay": null,
+                "scheduled": "2024-01-01T17:15:00+00:00",
+                "estimated": "2024-01-01T17:15:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Air Canada",
+                "iata": "AC",
+                "icao": "ACA"
+            },
+            "flight": {
+                "number": "4031",
+                "iata": "AC4031",
+                "icao": "ACA4031",
+                "codeshared": {
+                    "airline_name": "united airlines",
+                    "airline_iata": "ua",
+                    "airline_icao": "ual",
+                    "flight_number": "341",
+                    "flight_iata": "ua341",
+                    "flight_icao": "ual341"
+                }
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2024-01-01",
+            "flight_status": "active",
+            "departure": {
+                "airport": "John F Kennedy International",
+                "timezone": "America/New_York",
+                "iata": "JFK",
+                "icao": "KJFK",
+                "terminal": "4",
+                "gate": "B26",
+                "delay": 30,
+                "scheduled": "2024-01-01T11:10:00+00:00",
+                "estimated": "2024-01-01T11:10:00+00:00",
+                "actual": "2024-01-01T11:39:00+00:00",
+                "estimated_runway": "2024-01-01T11:39:00+00:00",
+                "actual_runway": "2024-01-01T11:39:00+00:00"
+            },
+            "arrival": {
+                "airport": "San Francisco International",
+                "timezone": "America/Los_Angeles",
+                "iata": "SFO",
+                "icao": "KSFO",
+                "terminal": "2",
+                "gate": "C3",
+                "baggage": "1",
+                "delay": null,
+                "scheduled": "2024-01-01T15:05:00+00:00",
+                "estimated": "2024-01-01T15:05:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Virgin Atlantic",
+                "iata": "VS",
+                "icao": "VIR"
+            },
+            "flight": {
+                "number": "4767",
+                "iata": "VS4767",
+                "icao": "VIR4767",
+                "codeshared": {
+                    "airline_name": "delta air lines",
+                    "airline_iata": "dl",
+                    "airline_icao": "dal",
+                    "flight_number": "779",
+                    "flight_iata": "dl779",
+                    "flight_icao": "dal779"
+                }
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2024-01-01",
+            "flight_status": "active",
+            "departure": {
+                "airport": "John F Kennedy International",
+                "timezone": "America/New_York",
+                "iata": "JFK",
+                "icao": "KJFK",
+                "terminal": "4",
+                "gate": "B26",
+                "delay": 30,
+                "scheduled": "2024-01-01T11:10:00+00:00",
+                "estimated": "2024-01-01T11:10:00+00:00",
+                "actual": "2024-01-01T11:39:00+00:00",
+                "estimated_runway": "2024-01-01T11:39:00+00:00",
+                "actual_runway": "2024-01-01T11:39:00+00:00"
+            },
+            "arrival": {
+                "airport": "San Francisco International",
+                "timezone": "America/Los_Angeles",
+                "iata": "SFO",
+                "icao": "KSFO",
+                "terminal": "2",
+                "gate": "C3",
+                "baggage": "1",
+                "delay": null,
+                "scheduled": "2024-01-01T15:05:00+00:00",
+                "estimated": "2024-01-01T15:05:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "LATAM Airlines",
+                "iata": "LA",
+                "icao": "LAN"
+            },
+            "flight": {
+                "number": "6433",
+                "iata": "LA6433",
+                "icao": "LAN6433",
+                "codeshared": {
+                    "airline_name": "delta air lines",
+                    "airline_iata": "dl",
+                    "airline_icao": "dal",
+                    "flight_number": "779",
+                    "flight_iata": "dl779",
+                    "flight_icao": "dal779"
+                }
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2024-01-01",
+            "flight_status": "active",
+            "departure": {
+                "airport": "John F Kennedy International",
+                "timezone": "America/New_York",
+                "iata": "JFK",
+                "icao": "KJFK",
+                "terminal": "4",
+                "gate": "B26",
+                "delay": 30,
+                "scheduled": "2024-01-01T11:10:00+00:00",
+                "estimated": "2024-01-01T11:10:00+00:00",
+                "actual": "2024-01-01T11:39:00+00:00",
+                "estimated_runway": "2024-01-01T11:39:00+00:00",
+                "actual_runway": "2024-01-01T11:39:00+00:00"
+            },
+            "arrival": {
+                "airport": "San Francisco International",
+                "timezone": "America/Los_Angeles",
+                "iata": "SFO",
+                "icao": "KSFO",
+                "terminal": "2",
+                "gate": "C3",
+                "baggage": "1",
+                "delay": null,
+                "scheduled": "2024-01-01T15:05:00+00:00",
+                "estimated": "2024-01-01T15:05:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Kenya Airways",
+                "iata": "KQ",
+                "icao": "KQA"
+            },
+            "flight": {
+                "number": "7009",
+                "iata": "KQ7009",
+                "icao": "KQA7009",
+                "codeshared": {
+                    "airline_name": "delta air lines",
+                    "airline_iata": "dl",
+                    "airline_icao": "dal",
+                    "flight_number": "779",
+                    "flight_iata": "dl779",
+                    "flight_icao": "dal779"
+                }
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2024-01-01",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Los Angeles International",
+                "timezone": "America/Los_Angeles",
+                "iata": "LAX",
+                "icao": "KLAX",
+                "terminal": "6",
+                "gate": "64",
+                "delay": null,
+                "scheduled": "2024-01-01T11:50:00+00:00",
+                "estimated": "2024-01-01T11:50:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "San Francisco International",
+                "timezone": "America/Los_Angeles",
+                "iata": "SFO",
+                "icao": "KSFO",
+                "terminal": "2",
+                "gate": "D4",
+                "baggage": "3",
+                "delay": null,
+                "scheduled": "2024-01-01T13:25:00+00:00",
+                "estimated": "2024-01-01T13:25:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Alaska Airlines",
+                "iata": "AS",
+                "icao": "ASA"
+            },
+            "flight": {
+                "number": "3381",
+                "iata": "AS3381",
+                "icao": "ASA3381",
+                "codeshared": null
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2024-01-01",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Sky Harbor International",
+                "timezone": "America/Phoenix",
+                "iata": "PHX",
+                "icao": "KPHX",
+                "terminal": "4",
+                "gate": null,
+                "delay": 8,
+                "scheduled": "2024-01-01T15:10:00+00:00",
+                "estimated": "2024-01-01T15:10:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "San Francisco International",
+                "timezone": "America/Los_Angeles",
+                "iata": "SFO",
+                "icao": "KSFO",
+                "terminal": "1",
+                "gate": "B13",
+                "baggage": null,
+                "delay": null,
+                "scheduled": "2024-01-01T16:15:00+00:00",
+                "estimated": "2024-01-01T16:15:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Southwest Airlines",
+                "iata": "WN",
+                "icao": "SWA"
+            },
+            "flight": {
+                "number": "1960",
+                "iata": "WN1960",
+                "icao": "SWA1960",
+                "codeshared": null
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2024-01-01",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Los Cabos",
+                "timezone": "America/Mazatlan",
+                "iata": "SJD",
+                "icao": "MMSD",
+                "terminal": "2",
+                "gate": null,
+                "delay": null,
+                "scheduled": "2024-01-01T16:05:00+00:00",
+                "estimated": "2024-01-01T16:05:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "San Francisco International",
+                "timezone": "America/Los_Angeles",
+                "iata": "SFO",
+                "icao": "KSFO",
+                "terminal": "I",
+                "gate": "G12",
+                "baggage": "CL1",
+                "delay": null,
+                "scheduled": "2024-01-01T18:25:00+00:00",
+                "estimated": "2024-01-01T18:25:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "United Airlines",
+                "iata": "UA",
+                "icao": "UAL"
+            },
+            "flight": {
+                "number": "1174",
+                "iata": "UA1174",
+                "icao": "UAL1174",
+                "codeshared": null
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2024-01-01",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Los Cabos",
+                "timezone": "America/Mazatlan",
+                "iata": "SJD",
+                "icao": "MMSD",
+                "terminal": "2",
+                "gate": null,
+                "delay": null,
+                "scheduled": "2024-01-01T16:05:00+00:00",
+                "estimated": "2024-01-01T16:05:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "San Francisco International",
+                "timezone": "America/Los_Angeles",
+                "iata": "SFO",
+                "icao": "KSFO",
+                "terminal": "I",
+                "gate": "G12",
+                "baggage": "CL1",
+                "delay": null,
+                "scheduled": "2024-01-01T18:25:00+00:00",
+                "estimated": "2024-01-01T18:25:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Air Canada",
+                "iata": "AC",
+                "icao": "ACA"
+            },
+            "flight": {
+                "number": "5319",
+                "iata": "AC5319",
+                "icao": "ACA5319",
+                "codeshared": {
+                    "airline_name": "united airlines",
+                    "airline_iata": "ua",
+                    "airline_icao": "ual",
+                    "flight_number": "1174",
+                    "flight_iata": "ua1174",
+                    "flight_icao": "ual1174"
+                }
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2024-01-01",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Fresno Air Terminal Airport",
+                "timezone": "America/Los_Angeles",
+                "iata": "FAT",
+                "icao": "KFAT",
+                "terminal": null,
+                "gate": "7",
+                "delay": null,
+                "scheduled": "2024-01-01T14:21:00+00:00",
+                "estimated": "2024-01-01T14:21:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "San Francisco International",
+                "timezone": "America/Los_Angeles",
+                "iata": "SFO",
+                "icao": "KSFO",
+                "terminal": "3",
+                "gate": "F10",
+                "baggage": "4",
+                "delay": null,
+                "scheduled": "2024-01-01T15:36:00+00:00",
+                "estimated": "2024-01-01T15:36:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "United Airlines",
+                "iata": "UA",
+                "icao": "UAL"
+            },
+            "flight": {
+                "number": "5974",
+                "iata": "UA5974",
+                "icao": "UAL5974",
+                "codeshared": null
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2024-01-01",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Fresno Air Terminal Airport",
+                "timezone": "America/Los_Angeles",
+                "iata": "FAT",
+                "icao": "KFAT",
+                "terminal": null,
+                "gate": "7",
+                "delay": null,
+                "scheduled": "2024-01-01T14:21:00+00:00",
+                "estimated": "2024-01-01T14:21:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "San Francisco International",
+                "timezone": "America/Los_Angeles",
+                "iata": "SFO",
+                "icao": "KSFO",
+                "terminal": "3",
+                "gate": "F10",
+                "baggage": "4",
+                "delay": null,
+                "scheduled": "2024-01-01T15:36:00+00:00",
+                "estimated": "2024-01-01T15:36:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Air New Zealand",
+                "iata": "NZ",
+                "icao": "ANZ"
+            },
+            "flight": {
+                "number": "9202",
+                "iata": "NZ9202",
+                "icao": "ANZ9202",
+                "codeshared": {
+                    "airline_name": "united airlines",
+                    "airline_iata": "ua",
+                    "airline_icao": "ual",
+                    "flight_number": "5974",
+                    "flight_iata": "ua5974",
+                    "flight_icao": "ual5974"
+                }
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2024-01-01",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Fresno Air Terminal Airport",
+                "timezone": "America/Los_Angeles",
+                "iata": "FAT",
+                "icao": "KFAT",
+                "terminal": null,
+                "gate": "7",
+                "delay": null,
+                "scheduled": "2024-01-01T14:21:00+00:00",
+                "estimated": "2024-01-01T14:21:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "San Francisco International",
+                "timezone": "America/Los_Angeles",
+                "iata": "SFO",
+                "icao": "KSFO",
+                "terminal": "3",
+                "gate": "F10",
+                "baggage": "4",
+                "delay": null,
+                "scheduled": "2024-01-01T15:36:00+00:00",
+                "estimated": "2024-01-01T15:36:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Lufthansa",
+                "iata": "LH",
+                "icao": "DLH"
+            },
+            "flight": {
+                "number": "7695",
+                "iata": "LH7695",
+                "icao": "DLH7695",
+                "codeshared": {
+                    "airline_name": "united airlines",
+                    "airline_iata": "ua",
+                    "airline_icao": "ual",
+                    "flight_number": "5974",
+                    "flight_iata": "ua5974",
+                    "flight_icao": "ual5974"
+                }
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2024-01-01",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Fresno Air Terminal Airport",
+                "timezone": "America/Los_Angeles",
+                "iata": "FAT",
+                "icao": "KFAT",
+                "terminal": null,
+                "gate": "7",
+                "delay": null,
+                "scheduled": "2024-01-01T14:21:00+00:00",
+                "estimated": "2024-01-01T14:21:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "San Francisco International",
+                "timezone": "America/Los_Angeles",
+                "iata": "SFO",
+                "icao": "KSFO",
+                "terminal": "3",
+                "gate": "F10",
+                "baggage": "4",
+                "delay": null,
+                "scheduled": "2024-01-01T15:36:00+00:00",
+                "estimated": "2024-01-01T15:36:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Copa Airlines",
+                "iata": "CM",
+                "icao": "CMP"
+            },
+            "flight": {
+                "number": "1158",
+                "iata": "CM1158",
+                "icao": "CMP1158",
+                "codeshared": {
+                    "airline_name": "united airlines",
+                    "airline_iata": "ua",
+                    "airline_icao": "ual",
+                    "flight_number": "5974",
+                    "flight_iata": "ua5974",
+                    "flight_icao": "ual5974"
+                }
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2024-01-01",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Fresno Air Terminal Airport",
+                "timezone": "America/Los_Angeles",
+                "iata": "FAT",
+                "icao": "KFAT",
+                "terminal": null,
+                "gate": "7",
+                "delay": null,
+                "scheduled": "2024-01-01T14:21:00+00:00",
+                "estimated": "2024-01-01T14:21:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "San Francisco International",
+                "timezone": "America/Los_Angeles",
+                "iata": "SFO",
+                "icao": "KSFO",
+                "terminal": "3",
+                "gate": "F10",
+                "baggage": "4",
+                "delay": null,
+                "scheduled": "2024-01-01T15:36:00+00:00",
+                "estimated": "2024-01-01T15:36:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "SA AVIANCA",
+                "iata": "AV",
+                "icao": "AVA"
+            },
+            "flight": {
+                "number": "2035",
+                "iata": "AV2035",
+                "icao": "AVA2035",
+                "codeshared": {
+                    "airline_name": "united airlines",
+                    "airline_iata": "ua",
+                    "airline_icao": "ual",
+                    "flight_number": "5974",
+                    "flight_iata": "ua5974",
+                    "flight_icao": "ual5974"
+                }
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2024-01-01",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Fresno Air Terminal Airport",
+                "timezone": "America/Los_Angeles",
+                "iata": "FAT",
+                "icao": "KFAT",
+                "terminal": null,
+                "gate": "7",
+                "delay": null,
+                "scheduled": "2024-01-01T14:21:00+00:00",
+                "estimated": "2024-01-01T14:21:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "San Francisco International",
+                "timezone": "America/Los_Angeles",
+                "iata": "SFO",
+                "icao": "KSFO",
+                "terminal": "3",
+                "gate": "F10",
+                "baggage": "4",
+                "delay": null,
+                "scheduled": "2024-01-01T15:36:00+00:00",
+                "estimated": "2024-01-01T15:36:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Air Canada",
+                "iata": "AC",
+                "icao": "ACA"
+            },
+            "flight": {
+                "number": "4339",
+                "iata": "AC4339",
+                "icao": "ACA4339",
+                "codeshared": {
+                    "airline_name": "united airlines",
+                    "airline_iata": "ua",
+                    "airline_icao": "ual",
+                    "flight_number": "5974",
+                    "flight_iata": "ua5974",
+                    "flight_icao": "ual5974"
+                }
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2024-01-01",
+            "flight_status": "active",
+            "departure": {
+                "airport": "Frankfurt International Airport",
+                "timezone": "Europe/Berlin",
+                "iata": "FRA",
+                "icao": "EDDF",
+                "terminal": "1",
+                "gate": "Z22",
+                "delay": 31,
+                "scheduled": "2024-01-01T13:20:00+00:00",
+                "estimated": "2024-01-01T13:20:00+00:00",
+                "actual": "2024-01-01T13:50:00+00:00",
+                "estimated_runway": "2024-01-01T13:50:00+00:00",
+                "actual_runway": "2024-01-01T13:50:00+00:00"
+            },
+            "arrival": {
+                "airport": "San Francisco International",
+                "timezone": "America/Los_Angeles",
+                "iata": "SFO",
+                "icao": "KSFO",
+                "terminal": "I",
+                "gate": "G6",
+                "baggage": "CL6",
+                "delay": null,
+                "scheduled": "2024-01-01T16:05:00+00:00",
+                "estimated": "2024-01-01T16:05:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Air New Zealand",
+                "iata": "NZ",
+                "icao": "ANZ"
+            },
+            "flight": {
+                "number": "9801",
+                "iata": "NZ9801",
+                "icao": "ANZ9801",
+                "codeshared": {
+                    "airline_name": "united airlines",
+                    "airline_iata": "ua",
+                    "airline_icao": "ual",
+                    "flight_number": "59",
+                    "flight_iata": "ua59",
+                    "flight_icao": "ual59"
+                }
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2024-01-01",
+            "flight_status": "active",
+            "departure": {
+                "airport": "Frankfurt International Airport",
+                "timezone": "Europe/Berlin",
+                "iata": "FRA",
+                "icao": "EDDF",
+                "terminal": "1",
+                "gate": "Z22",
+                "delay": 31,
+                "scheduled": "2024-01-01T13:20:00+00:00",
+                "estimated": "2024-01-01T13:20:00+00:00",
+                "actual": "2024-01-01T13:50:00+00:00",
+                "estimated_runway": "2024-01-01T13:50:00+00:00",
+                "actual_runway": "2024-01-01T13:50:00+00:00"
+            },
+            "arrival": {
+                "airport": "San Francisco International",
+                "timezone": "America/Los_Angeles",
+                "iata": "SFO",
+                "icao": "KSFO",
+                "terminal": "I",
+                "gate": "G6",
+                "baggage": "CL6",
+                "delay": null,
+                "scheduled": "2024-01-01T16:05:00+00:00",
+                "estimated": "2024-01-01T16:05:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Lufthansa",
+                "iata": "LH",
+                "icao": "DLH"
+            },
+            "flight": {
+                "number": "9410",
+                "iata": "LH9410",
+                "icao": "DLH9410",
+                "codeshared": {
+                    "airline_name": "united airlines",
+                    "airline_iata": "ua",
+                    "airline_icao": "ual",
+                    "flight_number": "59",
+                    "flight_iata": "ua59",
+                    "flight_icao": "ual59"
+                }
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2024-01-01",
+            "flight_status": "active",
+            "departure": {
+                "airport": "Frankfurt International Airport",
+                "timezone": "Europe/Berlin",
+                "iata": "FRA",
+                "icao": "EDDF",
+                "terminal": "1",
+                "gate": "Z22",
+                "delay": 31,
+                "scheduled": "2024-01-01T13:20:00+00:00",
+                "estimated": "2024-01-01T13:20:00+00:00",
+                "actual": "2024-01-01T13:50:00+00:00",
+                "estimated_runway": "2024-01-01T13:50:00+00:00",
+                "actual_runway": "2024-01-01T13:50:00+00:00"
+            },
+            "arrival": {
+                "airport": "San Francisco International",
+                "timezone": "America/Los_Angeles",
+                "iata": "SFO",
+                "icao": "KSFO",
+                "terminal": "I",
+                "gate": "G6",
+                "baggage": "CL6",
+                "delay": null,
+                "scheduled": "2024-01-01T16:05:00+00:00",
+                "estimated": "2024-01-01T16:05:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Air Canada",
+                "iata": "AC",
+                "icao": "ACA"
+            },
+            "flight": {
+                "number": "3783",
+                "iata": "AC3783",
+                "icao": "ACA3783",
+                "codeshared": {
+                    "airline_name": "united airlines",
+                    "airline_iata": "ua",
+                    "airline_icao": "ual",
+                    "flight_number": "59",
+                    "flight_iata": "ua59",
+                    "flight_icao": "ual59"
+                }
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2024-01-01",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Provo",
+                "timezone": "America/Denver",
+                "iata": "PVU",
+                "icao": "KPVU",
+                "terminal": null,
+                "gate": "1",
+                "delay": null,
+                "scheduled": "2024-01-01T12:30:00+00:00",
+                "estimated": "2024-01-01T12:30:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "San Francisco International",
+                "timezone": "America/Los_Angeles",
+                "iata": "SFO",
+                "icao": "KSFO",
+                "terminal": "2",
+                "gate": "D11",
+                "baggage": "4",
+                "delay": null,
+                "scheduled": "2024-01-01T13:48:00+00:00",
+                "estimated": "2024-01-01T13:48:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Breeze Airways",
+                "iata": "MX",
+                "icao": "MXY"
+            },
+            "flight": {
+                "number": "600",
+                "iata": "MX600",
+                "icao": "MXY600",
+                "codeshared": null
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2024-01-01",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "El Salvador International",
+                "timezone": "America/El_Salvador",
+                "iata": "SAL",
+                "icao": "MSLP",
+                "terminal": null,
+                "gate": null,
+                "delay": null,
+                "scheduled": "2024-01-01T17:35:00+00:00",
+                "estimated": "2024-01-01T17:35:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "San Francisco International",
+                "timezone": "America/Los_Angeles",
+                "iata": "SFO",
+                "icao": "KSFO",
+                "terminal": "INTL",
+                "gate": null,
+                "baggage": null,
+                "delay": null,
+                "scheduled": "2024-01-01T21:45:00+00:00",
+                "estimated": "2024-01-01T21:45:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "SA AVIANCA",
+                "iata": "AV",
+                "icao": "AVA"
+            },
+            "flight": {
+                "number": "560",
+                "iata": "AV560",
+                "icao": "AVA560",
+                "codeshared": null
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2024-01-01",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "El Salvador International",
+                "timezone": "America/El_Salvador",
+                "iata": "SAL",
+                "icao": "MSLP",
+                "terminal": null,
+                "gate": null,
+                "delay": null,
+                "scheduled": "2024-01-01T17:35:00+00:00",
+                "estimated": "2024-01-01T17:35:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "San Francisco International",
+                "timezone": "America/Los_Angeles",
+                "iata": "SFO",
+                "icao": "KSFO",
+                "terminal": "INTL",
+                "gate": null,
+                "baggage": null,
+                "delay": null,
+                "scheduled": "2024-01-01T21:45:00+00:00",
+                "estimated": "2024-01-01T21:45:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "ANA",
+                "iata": "NH",
+                "icao": "ANA"
+            },
+            "flight": {
+                "number": "7829",
+                "iata": "NH7829",
+                "icao": "ANA7829",
+                "codeshared": {
+                    "airline_name": "sa avianca",
+                    "airline_iata": "av",
+                    "airline_icao": "ava",
+                    "flight_number": "560",
+                    "flight_iata": "av560",
+                    "flight_icao": "ava560"
+                }
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2024-01-01",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Dallas/Fort Worth International",
+                "timezone": "America/Chicago",
+                "iata": "DFW",
+                "icao": "KDFW",
+                "terminal": "C",
+                "gate": "C37",
+                "delay": null,
+                "scheduled": "2024-01-01T16:59:00+00:00",
+                "estimated": "2024-01-01T16:59:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "San Francisco International",
+                "timezone": "America/Los_Angeles",
+                "iata": "SFO",
+                "icao": "KSFO",
+                "terminal": "1",
+                "gate": "B25",
+                "baggage": "CL-B",
+                "delay": null,
+                "scheduled": "2024-01-01T19:00:00+00:00",
+                "estimated": "2024-01-01T19:00:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "American Airlines",
+                "iata": "AA",
+                "icao": "AAL"
+            },
+            "flight": {
+                "number": "2810",
+                "iata": "AA2810",
+                "icao": "AAL2810",
+                "codeshared": null
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2024-01-01",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Denver International",
+                "timezone": "America/Denver",
+                "iata": "DEN",
+                "icao": "KDEN",
+                "terminal": null,
+                "gate": "A20",
+                "delay": null,
+                "scheduled": "2024-01-01T15:58:00+00:00",
+                "estimated": "2024-01-01T15:58:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "San Francisco International",
+                "timezone": "America/Los_Angeles",
+                "iata": "SFO",
+                "icao": "KSFO",
+                "terminal": "3",
+                "gate": null,
+                "baggage": null,
+                "delay": null,
+                "scheduled": "2024-01-01T17:46:00+00:00",
+                "estimated": "2024-01-01T17:46:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "United Airlines",
+                "iata": "UA",
+                "icao": "UAL"
+            },
+            "flight": {
+                "number": "1300",
+                "iata": "UA1300",
+                "icao": "UAL1300",
+                "codeshared": null
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2024-01-01",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Denver International",
+                "timezone": "America/Denver",
+                "iata": "DEN",
+                "icao": "KDEN",
+                "terminal": null,
+                "gate": "C57",
+                "delay": null,
+                "scheduled": "2024-01-01T15:25:00+00:00",
+                "estimated": "2024-01-01T15:25:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "San Francisco International",
+                "timezone": "America/Los_Angeles",
+                "iata": "SFO",
+                "icao": "KSFO",
+                "terminal": "1",
+                "gate": "B13",
+                "baggage": null,
+                "delay": null,
+                "scheduled": "2024-01-01T17:05:00+00:00",
+                "estimated": "2024-01-01T17:05:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Southwest Airlines",
+                "iata": "WN",
+                "icao": "SWA"
+            },
+            "flight": {
+                "number": "985",
+                "iata": "WN985",
+                "icao": "SWA985",
+                "codeshared": null
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2024-01-01",
+            "flight_status": "active",
+            "departure": {
+                "airport": "John F Kennedy International",
+                "timezone": "America/New_York",
+                "iata": "JFK",
+                "icao": "KJFK",
+                "terminal": "7",
+                "gate": "1",
+                "delay": 49,
+                "scheduled": "2024-01-01T13:00:00+00:00",
+                "estimated": "2024-01-01T13:00:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "San Francisco International",
+                "timezone": "America/Los_Angeles",
+                "iata": "SFO",
+                "icao": "KSFO",
+                "terminal": "2",
+                "gate": "D5",
+                "baggage": "3",
+                "delay": null,
+                "scheduled": "2024-01-01T16:40:00+00:00",
+                "estimated": "2024-01-01T16:40:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Alaska Airlines",
+                "iata": "AS",
+                "icao": "ASA"
+            },
+            "flight": {
+                "number": "15",
+                "iata": "AS15",
+                "icao": "ASA15",
+                "codeshared": null
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2024-01-01",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Sky Harbor International",
+                "timezone": "America/Phoenix",
+                "iata": "PHX",
+                "icao": "KPHX",
+                "terminal": "4",
+                "gate": "B10",
+                "delay": null,
+                "scheduled": "2024-01-01T14:35:00+00:00",
+                "estimated": "2024-01-01T14:35:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "San Francisco International",
+                "timezone": "America/Los_Angeles",
+                "iata": "SFO",
+                "icao": "KSFO",
+                "terminal": "1",
+                "gate": "B22",
+                "baggage": "CL-B",
+                "delay": null,
+                "scheduled": "2024-01-01T15:50:00+00:00",
+                "estimated": "2024-01-01T15:50:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "American Airlines",
+                "iata": "AA",
+                "icao": "AAL"
+            },
+            "flight": {
+                "number": "4859",
+                "iata": "AA4859",
+                "icao": "AAL4859",
+                "codeshared": null
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2024-01-01",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Sky Harbor International",
+                "timezone": "America/Phoenix",
+                "iata": "PHX",
+                "icao": "KPHX",
+                "terminal": "3",
+                "gate": "E3",
+                "delay": null,
+                "scheduled": "2024-01-01T14:25:00+00:00",
+                "estimated": "2024-01-01T14:25:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "San Francisco International",
+                "timezone": "America/Los_Angeles",
+                "iata": "SFO",
+                "icao": "KSFO",
+                "terminal": "3",
+                "gate": "F3",
+                "baggage": "9",
+                "delay": null,
+                "scheduled": "2024-01-01T15:34:00+00:00",
+                "estimated": "2024-01-01T15:34:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "United Airlines",
+                "iata": "UA",
+                "icao": "UAL"
+            },
+            "flight": {
+                "number": "660",
+                "iata": "UA660",
+                "icao": "UAL660",
+                "codeshared": null
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2024-01-01",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Portland International",
+                "timezone": "America/Los_Angeles",
+                "iata": "PDX",
+                "icao": "KPDX",
+                "terminal": null,
+                "gate": "B7",
+                "delay": null,
+                "scheduled": "2024-01-01T11:37:00+00:00",
+                "estimated": "2024-01-01T11:37:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "San Francisco International",
+                "timezone": "America/Los_Angeles",
+                "iata": "SFO",
+                "icao": "KSFO",
+                "terminal": "2",
+                "gate": "D3",
+                "baggage": "3",
+                "delay": null,
+                "scheduled": "2024-01-01T13:32:00+00:00",
+                "estimated": "2024-01-01T13:32:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Alaska Airlines",
+                "iata": "AS",
+                "icao": "ASA"
+            },
+            "flight": {
+                "number": "2058",
+                "iata": "AS2058",
+                "icao": "ASA2058",
+                "codeshared": null
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2024-01-01",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Sun Valley",
+                "timezone": "America/Boise",
+                "iata": "SUN",
+                "icao": "KSUN",
+                "terminal": null,
+                "gate": null,
+                "delay": null,
+                "scheduled": "2024-01-01T14:14:00+00:00",
+                "estimated": "2024-01-01T14:14:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "San Francisco International",
+                "timezone": "America/Los_Angeles",
+                "iata": "SFO",
+                "icao": "KSFO",
+                "terminal": "3",
+                "gate": "F6",
+                "baggage": "8",
+                "delay": null,
+                "scheduled": "2024-01-01T15:35:00+00:00",
+                "estimated": "2024-01-01T15:35:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "United Airlines",
+                "iata": "UA",
+                "icao": "UAL"
+            },
+            "flight": {
+                "number": "5833",
+                "iata": "UA5833",
+                "icao": "UAL5833",
+                "codeshared": null
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2024-01-01",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "John F Kennedy International",
+                "timezone": "America/New_York",
+                "iata": "JFK",
+                "icao": "KJFK",
+                "terminal": "7",
+                "gate": "8",
+                "delay": 113,
+                "scheduled": "2024-01-01T16:45:00+00:00",
+                "estimated": "2024-01-01T16:45:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "San Francisco International",
+                "timezone": "America/Los_Angeles",
+                "iata": "SFO",
+                "icao": "KSFO",
+                "terminal": "2",
+                "gate": "D9",
+                "baggage": null,
+                "delay": null,
+                "scheduled": "2024-01-01T20:25:00+00:00",
+                "estimated": "2024-01-01T20:25:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Alaska Airlines",
+                "iata": "AS",
+                "icao": "ASA"
+            },
+            "flight": {
+                "number": "27",
+                "iata": "AS27",
+                "icao": "ASA27",
+                "codeshared": null
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2024-01-01",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "John F Kennedy International",
+                "timezone": "America/New_York",
+                "iata": "JFK",
+                "icao": "KJFK",
+                "terminal": "8",
+                "gate": "37",
+                "delay": null,
+                "scheduled": "2024-01-01T16:30:00+00:00",
+                "estimated": "2024-01-01T16:30:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "San Francisco International",
+                "timezone": "America/Los_Angeles",
+                "iata": "SFO",
+                "icao": "KSFO",
+                "terminal": "1",
+                "gate": "B24",
+                "baggage": "4",
+                "delay": null,
+                "scheduled": "2024-01-01T20:14:00+00:00",
+                "estimated": "2024-01-01T20:14:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "American Airlines",
+                "iata": "AA",
+                "icao": "AAL"
+            },
+            "flight": {
+                "number": "2305",
+                "iata": "AA2305",
+                "icao": "AAL2305",
+                "codeshared": null
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2024-01-01",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Vancouver International",
+                "timezone": "America/Vancouver",
+                "iata": "YVR",
+                "icao": "CYVR",
+                "terminal": "M",
+                "gate": "E80",
+                "delay": 10,
+                "scheduled": "2024-01-01T13:10:00+00:00",
+                "estimated": "2024-01-01T13:10:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "San Francisco International",
+                "timezone": "America/Los_Angeles",
+                "iata": "SFO",
+                "icao": "KSFO",
+                "terminal": "2",
+                "gate": "D14",
+                "baggage": "4",
+                "delay": null,
+                "scheduled": "2024-01-01T15:35:00+00:00",
+                "estimated": "2024-01-01T15:35:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Air Canada",
+                "iata": "AC",
+                "icao": "ACA"
+            },
+            "flight": {
+                "number": "566",
+                "iata": "AC566",
+                "icao": "ACA566",
+                "codeshared": null
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2024-01-01",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Raleigh-durham International Airport",
+                "timezone": "America/New_York",
+                "iata": "RDU",
+                "icao": "KRDU",
+                "terminal": "2",
+                "gate": "D20",
+                "delay": null,
+                "scheduled": "2024-01-01T18:22:00+00:00",
+                "estimated": "2024-01-01T18:22:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "San Francisco International",
+                "timezone": "America/Los_Angeles",
+                "iata": "SFO",
+                "icao": "KSFO",
+                "terminal": "3",
+                "gate": "E12",
+                "baggage": "9",
+                "delay": null,
+                "scheduled": "2024-01-01T21:35:00+00:00",
+                "estimated": "2024-01-01T21:35:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "United Airlines",
+                "iata": "UA",
+                "icao": "UAL"
+            },
+            "flight": {
+                "number": "1769",
+                "iata": "UA1769",
+                "icao": "UAL1769",
+                "codeshared": null
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2024-01-01",
+            "flight_status": "active",
+            "departure": {
+                "airport": "Redding",
+                "timezone": "America/Los_Angeles",
+                "iata": "RDD",
+                "icao": "KRDD",
+                "terminal": null,
+                "gate": null,
+                "delay": 12,
+                "scheduled": "2024-01-01T09:00:00+00:00",
+                "estimated": "2024-01-01T09:00:00+00:00",
+                "actual": "2024-01-01T08:59:00+00:00",
+                "estimated_runway": "2024-01-01T08:59:00+00:00",
+                "actual_runway": "2024-01-01T08:59:00+00:00"
+            },
+            "arrival": {
+                "airport": "San Francisco International",
+                "timezone": "America/Los_Angeles",
+                "iata": "SFO",
+                "icao": "KSFO",
+                "terminal": "1",
+                "gate": null,
+                "baggage": null,
+                "delay": null,
+                "scheduled": "2024-01-01T10:06:00+00:00",
+                "estimated": "2024-01-01T10:06:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "PHI",
+                "iata": null,
+                "icao": "PHM"
+            },
+            "flight": {
+                "number": null,
+                "iata": null,
+                "icao": "PHM",
+                "codeshared": null
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2024-01-01",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "John Wayne",
+                "timezone": "America/Los_Angeles",
+                "iata": "SNA",
+                "icao": "KSNA",
+                "terminal": "A",
+                "gate": "1A",
+                "delay": 16,
+                "scheduled": "2024-01-01T10:41:00+00:00",
+                "estimated": "2024-01-01T10:41:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "San Francisco International",
+                "timezone": "America/Los_Angeles",
+                "iata": "SFO",
+                "icao": "KSFO",
+                "terminal": "3",
+                "gate": "E3",
+                "baggage": "6",
+                "delay": null,
+                "scheduled": "2024-01-01T12:20:00+00:00",
+                "estimated": "2024-01-01T12:20:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "United Airlines",
+                "iata": "UA",
+                "icao": "UAL"
+            },
+            "flight": {
+                "number": "5710",
+                "iata": "UA5710",
+                "icao": "UAL5710",
+                "codeshared": null
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2024-01-01",
+            "flight_status": "active",
+            "departure": {
+                "airport": "John Wayne",
+                "timezone": "America/Los_Angeles",
+                "iata": "SNA",
+                "icao": "KSNA",
+                "terminal": "A",
+                "gate": "1A",
+                "delay": 16,
+                "scheduled": "2024-01-01T10:41:00+00:00",
+                "estimated": "2024-01-01T10:41:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "San Francisco International",
+                "timezone": "America/Los_Angeles",
+                "iata": "SFO",
+                "icao": "KSFO",
+                "terminal": "3",
+                "gate": "F6",
+                "baggage": "6",
+                "delay": null,
+                "scheduled": "2024-01-01T12:20:00+00:00",
+                "estimated": "2024-01-01T12:20:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Virgin Australia",
+                "iata": "VA",
+                "icao": "VOZ"
+            },
+            "flight": {
+                "number": "8497",
+                "iata": "VA8497",
+                "icao": "VOZ8497",
+                "codeshared": {
+                    "airline_name": "united airlines",
+                    "airline_iata": "ua",
+                    "airline_icao": "ual",
+                    "flight_number": "5710",
+                    "flight_iata": "ua5710",
+                    "flight_icao": "ual5710"
+                }
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2024-01-01",
+            "flight_status": "active",
+            "departure": {
+                "airport": "John Wayne",
+                "timezone": "America/Los_Angeles",
+                "iata": "SNA",
+                "icao": "KSNA",
+                "terminal": "A",
+                "gate": "1A",
+                "delay": 16,
+                "scheduled": "2024-01-01T10:41:00+00:00",
+                "estimated": "2024-01-01T10:41:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "San Francisco International",
+                "timezone": "America/Los_Angeles",
+                "iata": "SFO",
+                "icao": "KSFO",
+                "terminal": "3",
+                "gate": "F6",
+                "baggage": "6",
+                "delay": null,
+                "scheduled": "2024-01-01T12:20:00+00:00",
+                "estimated": "2024-01-01T12:20:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Air New Zealand",
+                "iata": "NZ",
+                "icao": "ANZ"
+            },
+            "flight": {
+                "number": "9718",
+                "iata": "NZ9718",
+                "icao": "ANZ9718",
+                "codeshared": {
+                    "airline_name": "united airlines",
+                    "airline_iata": "ua",
+                    "airline_icao": "ual",
+                    "flight_number": "5710",
+                    "flight_iata": "ua5710",
+                    "flight_icao": "ual5710"
+                }
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2024-01-01",
+            "flight_status": "active",
+            "departure": {
+                "airport": "John Wayne",
+                "timezone": "America/Los_Angeles",
+                "iata": "SNA",
+                "icao": "KSNA",
+                "terminal": "A",
+                "gate": "1A",
+                "delay": 16,
+                "scheduled": "2024-01-01T10:41:00+00:00",
+                "estimated": "2024-01-01T10:41:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "San Francisco International",
+                "timezone": "America/Los_Angeles",
+                "iata": "SFO",
+                "icao": "KSFO",
+                "terminal": "3",
+                "gate": "F6",
+                "baggage": "6",
+                "delay": null,
+                "scheduled": "2024-01-01T12:20:00+00:00",
+                "estimated": "2024-01-01T12:20:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Lufthansa",
+                "iata": "LH",
+                "icao": "DLH"
+            },
+            "flight": {
+                "number": "9239",
+                "iata": "LH9239",
+                "icao": "DLH9239",
+                "codeshared": {
+                    "airline_name": "united airlines",
+                    "airline_iata": "ua",
+                    "airline_icao": "ual",
+                    "flight_number": "5710",
+                    "flight_iata": "ua5710",
+                    "flight_icao": "ual5710"
+                }
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2024-01-01",
+            "flight_status": "active",
+            "departure": {
+                "airport": "John Wayne",
+                "timezone": "America/Los_Angeles",
+                "iata": "SNA",
+                "icao": "KSNA",
+                "terminal": "A",
+                "gate": "1A",
+                "delay": 16,
+                "scheduled": "2024-01-01T10:41:00+00:00",
+                "estimated": "2024-01-01T10:41:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "San Francisco International",
+                "timezone": "America/Los_Angeles",
+                "iata": "SFO",
+                "icao": "KSFO",
+                "terminal": "3",
+                "gate": "F6",
+                "baggage": "6",
+                "delay": null,
+                "scheduled": "2024-01-01T12:20:00+00:00",
+                "estimated": "2024-01-01T12:20:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Emirates",
+                "iata": "EK",
+                "icao": "UAE"
+            },
+            "flight": {
+                "number": "6399",
+                "iata": "EK6399",
+                "icao": "UAE6399",
+                "codeshared": {
+                    "airline_name": "united airlines",
+                    "airline_iata": "ua",
+                    "airline_icao": "ual",
+                    "flight_number": "5710",
+                    "flight_iata": "ua5710",
+                    "flight_icao": "ual5710"
+                }
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2024-01-01",
+            "flight_status": "active",
+            "departure": {
+                "airport": "John Wayne",
+                "timezone": "America/Los_Angeles",
+                "iata": "SNA",
+                "icao": "KSNA",
+                "terminal": "A",
+                "gate": "1A",
+                "delay": 16,
+                "scheduled": "2024-01-01T10:41:00+00:00",
+                "estimated": "2024-01-01T10:41:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "San Francisco International",
+                "timezone": "America/Los_Angeles",
+                "iata": "SFO",
+                "icao": "KSFO",
+                "terminal": "3",
+                "gate": "F6",
+                "baggage": "6",
+                "delay": null,
+                "scheduled": "2024-01-01T12:20:00+00:00",
+                "estimated": "2024-01-01T12:20:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Air Canada",
+                "iata": "AC",
+                "icao": "ACA"
+            },
+            "flight": {
+                "number": "4589",
+                "iata": "AC4589",
+                "icao": "ACA4589",
+                "codeshared": {
+                    "airline_name": "united airlines",
+                    "airline_iata": "ua",
+                    "airline_icao": "ual",
+                    "flight_number": "5710",
+                    "flight_iata": "ua5710",
+                    "flight_icao": "ual5710"
+                }
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2024-01-01",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "John Wayne",
+                "timezone": "America/Los_Angeles",
+                "iata": "SNA",
+                "icao": "KSNA",
+                "terminal": "B",
+                "gate": "11",
+                "delay": 16,
+                "scheduled": "2024-01-01T10:20:00+00:00",
+                "estimated": "2024-01-01T10:20:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "San Francisco International",
+                "timezone": "America/Los_Angeles",
+                "iata": "SFO",
+                "icao": "KSFO",
+                "terminal": "2",
+                "gate": "D6",
+                "baggage": "3",
+                "delay": null,
+                "scheduled": "2024-01-01T11:55:00+00:00",
+                "estimated": "2024-01-01T11:55:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Alaska Airlines",
+                "iata": "AS",
+                "icao": "ASA"
+            },
+            "flight": {
+                "number": "3492",
+                "iata": "AS3492",
+                "icao": "ASA3492",
+                "codeshared": null
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2024-01-01",
+            "flight_status": "active",
+            "departure": {
+                "airport": "John Wayne",
+                "timezone": "America/Los_Angeles",
+                "iata": "SNA",
+                "icao": "KSNA",
+                "terminal": "B",
+                "gate": "11",
+                "delay": 16,
+                "scheduled": "2024-01-01T10:20:00+00:00",
+                "estimated": "2024-01-01T10:20:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "San Francisco International",
+                "timezone": "America/Los_Angeles",
+                "iata": "SFO",
+                "icao": "KSFO",
+                "terminal": "2",
+                "gate": "D8",
+                "baggage": "3",
+                "delay": null,
+                "scheduled": "2024-01-01T11:55:00+00:00",
+                "estimated": "2024-01-01T11:55:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Qatar Airways",
+                "iata": "QR",
+                "icao": "QTR"
+            },
+            "flight": {
+                "number": "2196",
+                "iata": "QR2196",
+                "icao": "QTR2196",
+                "codeshared": {
+                    "airline_name": "alaska airlines",
+                    "airline_iata": "as",
+                    "airline_icao": "asa",
+                    "flight_number": "3492",
+                    "flight_iata": "as3492",
+                    "flight_icao": "asa3492"
+                }
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2024-01-01",
+            "flight_status": "active",
+            "departure": {
+                "airport": "John Wayne",
+                "timezone": "America/Los_Angeles",
+                "iata": "SNA",
+                "icao": "KSNA",
+                "terminal": "B",
+                "gate": "11",
+                "delay": 16,
+                "scheduled": "2024-01-01T10:20:00+00:00",
+                "estimated": "2024-01-01T10:20:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "San Francisco International",
+                "timezone": "America/Los_Angeles",
+                "iata": "SFO",
+                "icao": "KSFO",
+                "terminal": "2",
+                "gate": "D8",
+                "baggage": "3",
+                "delay": null,
+                "scheduled": "2024-01-01T11:55:00+00:00",
+                "estimated": "2024-01-01T11:55:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "American Airlines",
+                "iata": "AA",
+                "icao": "AAL"
+            },
+            "flight": {
+                "number": "9320",
+                "iata": "AA9320",
+                "icao": "AAL9320",
+                "codeshared": {
+                    "airline_name": "alaska airlines",
+                    "airline_iata": "as",
+                    "airline_icao": "asa",
+                    "flight_number": "3492",
+                    "flight_iata": "as3492",
+                    "flight_icao": "asa3492"
+                }
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2024-01-01",
+            "flight_status": "active",
+            "departure": {
+                "airport": "Washington Dulles International",
+                "timezone": "America/New_York",
+                "iata": "IAD",
+                "icao": "KIAD",
+                "terminal": null,
+                "gate": "D26",
+                "delay": 12,
+                "scheduled": "2024-01-01T12:30:00+00:00",
+                "estimated": "2024-01-01T12:30:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "San Francisco International",
+                "timezone": "America/Los_Angeles",
+                "iata": "SFO",
+                "icao": "KSFO",
+                "terminal": "3",
+                "gate": "F19",
+                "baggage": "5",
+                "delay": null,
+                "scheduled": "2024-01-01T15:33:00+00:00",
+                "estimated": "2024-01-01T15:33:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Virgin Australia",
+                "iata": "VA",
+                "icao": "VOZ"
+            },
+            "flight": {
+                "number": "8389",
+                "iata": "VA8389",
+                "icao": "VOZ8389",
+                "codeshared": {
+                    "airline_name": "united airlines",
+                    "airline_iata": "ua",
+                    "airline_icao": "ual",
+                    "flight_number": "2081",
+                    "flight_iata": "ua2081",
+                    "flight_icao": "ual2081"
+                }
+            },
+            "aircraft": null,
+            "live": null
+        }
+    ]
+}
